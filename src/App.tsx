@@ -9,9 +9,9 @@ function App() {
       <Header />
       <CardProductL />
       <CardProductS />
-      <h1 className="text-3xl font-bold underline">
+      <div className="Btn_primary">
       Hello world!
-      </h1>
+      </div>
     </>
   )
 }
