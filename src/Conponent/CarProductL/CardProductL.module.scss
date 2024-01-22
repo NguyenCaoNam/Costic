@@ -1,0 +1,83 @@
+.Wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+}
+
+.ProductImg {
+    width: 424px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.ProductImg>img {
+    width: 424px;
+    height: 500px;
+    margin: auto;
+}
+
+.InforProduct {
+    display: flex;
+    width: 424px;
+    padding: 0px 8px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.ProductName {
+    color: #333;
+    width: 328px;
+    font-family: Chesna Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.762px;
+    text-align: left;
+    /* 123.809% */
+}
+
+.Price {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: end;
+}
+
+.CurrentPrice {
+    color: var(--Foundation-Black-black-300, #545454);
+    font-family: Chesna Grotesk;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    /* 103.175% */
+}
+
+.OldPrice {
+    color: var(--Foundation-Grey-grey-200, #9C9D9C);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    /* 123.809% */
+    text-decoration-line: line-through;
+    font-family: Chesna Grotesk;
+}
+
+.WrapProduct {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    align-items: start;
+}
+
+.Title {
+    padding: 12px 0px;
+    border-bottom: 1px solid var(--Foundation-Grey-grey-900, #101110);
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    font-family: Chesna Grotesk;
+    text-align: left;
+}
