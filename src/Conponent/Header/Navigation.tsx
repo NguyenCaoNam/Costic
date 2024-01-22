@@ -16,7 +16,7 @@ const NavigationItem = ({ N1 }: { N1: string }) => {
 
 const Navigation = () => {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row gap-[32px] uppercase'>
       {Items.map((list) => {
         return (
           <NavigationItem key={list.id} N1={list.Item} />

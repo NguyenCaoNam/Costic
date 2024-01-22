@@ -10,8 +10,14 @@ function App() {
       <CardProductL />
       <CardProductS />
       <div className="Btn_primary">
-      Hello world!
+      Buy Now
       </div>
+      <br />
+      <div className='Btn_secondary'>
+        Buy Now
+      </div>
+      <br />
+      <div className='Tag'>Skin Care Product</div>
     </>
   )
 }
