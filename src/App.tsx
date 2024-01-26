@@ -1,6 +1,7 @@
 import './App.css'
 import CardProductL from './Conponent/CarProductL/CardProductL'
 import CardProductS from './Conponent/CardProductS/CardProductS'
+import LoginForm from './Conponent/FormLogin'
 import Header from './Conponent/Header/Header'
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <CardProductL />
       <CardProductS />
       <div className="Btn_primary">
-      Buy Now
+        Buy Now
       </div>
       <br />
       <div className='Btn_secondary'>
@@ -18,6 +19,10 @@ function App() {
       </div>
       <br />
       <div className='Tag'>Skin Care Product</div>
+      {/* <br />
+      <input type="text" placeholder='Username' /> */}
+      <br />
+      <LoginForm />
     </>
   )
 }
