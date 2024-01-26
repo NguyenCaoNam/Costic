@@ -1,5 +1,7 @@
 import React from 'react'
 import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
 
 export default function LoginForm() {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -12,7 +14,8 @@ export default function LoginForm() {
         <div className='flex flex-col gap-[8px] items-start'>
           <div>Username</div>
           <input className='Input'
-            {...register('Username')}
+            {...register('Username',
+            {require: "Please enter username" })}
             type='text'
             id='Type ypur username'
             placeholder='Username'></input>
@@ -28,7 +31,7 @@ export default function LoginForm() {
           </div>
           <div className='flex flex-row justify-between'>
             <div className='flex flex-row gap-[4px]'>
-              <input {...register('Remember me')} type="radio" value='Remember me' />
+              <input {...register('Remember me')} type="checkbox" value='Remember me' />
               <label>Remember me</label>
             </div>
             <button>Forgot Password</button>

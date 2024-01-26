@@ -12,7 +12,7 @@ function App() {
       <CardProductS />
       <div className="Btn_primary">
         Buy Now
-      </div>
+      </div>npm install @hookform/resolvers yup
       <br />
       <div className='Btn_secondary'>
         Buy Now
