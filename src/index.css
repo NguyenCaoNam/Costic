@@ -14,6 +14,6 @@
     @apply text-[16px] font-normal leading-[18px] text-black rounded-[20px] border-[1px] px-[24px] py-[8px] border-black min-w-[100px] w-fit bg-white hover:bg-[#EDEDED] active:bg-black active:text-white
   }
   .Input{
-    @apply placeholder:italic placeholder:text-[#6E706E] rounded-[30px] border-[#545454] border-[1px] bg-white px-[16px] py-[12px] text-[16px] leading-normal w-[400px]
+    @apply placeholder:italic placeholder:text-[#6E706E] rounded-[30px] border-[#545454] border-[1px] bg-white px-[16px] py-[12px] text-[16px] leading-normal w-[580px]
   }
 }

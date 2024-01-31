@@ -1,7 +1,8 @@
 import './App.css'
 import CardProductL from './Conponent/CarProductL/CardProductL'
 import CardProductS from './Conponent/CardProductS/CardProductS'
-import LoginForm from './Conponent/FormLogin'
+import LoginForm from './Conponent/Form/FormLogin'
+import FormSignup from './Conponent/Form/FormSignup'
 import Header from './Conponent/Header/Header'
 
 function App() {
@@ -12,17 +13,16 @@ function App() {
       <CardProductS />
       <div className="Btn_primary">
         Buy Now
-      </div>npm install @hookform/resolvers yup
+      </div>
       <br />
       <div className='Btn_secondary'>
         Buy Now
       </div>
       <br />
       <div className='Tag'>Skin Care Product</div>
-      {/* <br />
-      <input type="text" placeholder='Username' /> */}
       <br />
       <LoginForm />
+      <FormSignup />
     </>
   )
 }
