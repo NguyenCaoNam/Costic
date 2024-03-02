@@ -1,11 +1,11 @@
 import './App.css'
-import CardProductL from './Conponent/CarProductL/CardProductL'
-import CardProductS from './Conponent/CardProductS/CardProductS'
-import ForgotPassword from './Conponent/Form/ForgotPassword'
-import LoginForm from './Conponent/Form/FormLogin'
-import FormSignup from './Conponent/Form/FormSignup'
-import Resetpassword from './Conponent/Form/Resetpassword'
-import Header from './Conponent/Header/Header'
+import CardProductL from './components/CarProductL/CardProductL'
+import CardProductS from './components/CardProductS/CardProductS'
+import ForgotPassword from './components/Form/ForgotPassword'
+import LoginForm from './components/Form/FormLogin'
+import FormSignup from './components/Form/FormSignup'
+import Resetpassword from './components/Form/Resetpassword'
+import Header from './components/Header/Header'
 
 function App() {
   return (
@@ -25,11 +25,14 @@ function App() {
       <br />
       <LoginForm />
       <br />
+      <div className='text-[24px]'>SIGNUP</div>
       <FormSignup />
       <br />
+      <div className='text-[24px]'>FORGOT PASSWORD</div>
       <ForgotPassword />
       <br />
-      {/* <Resetpassword /> */}
+      <div className='text-[24px]'>RESET PASSWORD</div>
+      <Resetpassword />
     </>
   )
 }

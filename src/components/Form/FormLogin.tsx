@@ -20,7 +20,7 @@ export default function LoginForm() {
     <form className='flex flex-col gap-[40px] items-center'
       onSubmit={handleSubmit(onSubmit)}>
       <div className='text-[24px] leading-[18px] uppercase text-black'>Login</div>
-      <div className='flex flex-col gap-[32px]'>
+      <div className='flex flex-col gap-[16px]'>
         <div className='flex flex-col gap-[8px] items-start'>
           <div>Username</div>
           <input className='Input'

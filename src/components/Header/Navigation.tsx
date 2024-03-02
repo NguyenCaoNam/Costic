@@ -11,12 +11,12 @@ export const Items = [
 
 
 const NavigationItem = ({ N1 }: { N1: string }) => {
-  return <div>{N1}</div>;
+  return <a className='nav' href=''>{N1}</a>;
 };
 
 const Navigation = () => {
   return (
-    <div className='flex flex-row gap-[32px] uppercase'>
+    <div className='flex flex-row gap-[32px] '>
       {Items.map((list) => {
         return (
           <NavigationItem key={list.id} N1={list.Item} />
