@@ -25,7 +25,7 @@ const CardProductSItem = ({ ProductName, CurrentPrice, OldPrice, ProductImg }: T
 }
 const CardProductS = () => {
   return (
-    <>
+    <div className='px-[56px]'>
     <div>
       <div className={styles.Title}>Feature Product</div>
       <div className={styles.WrapProduct}>
@@ -43,7 +43,7 @@ const CardProductS = () => {
       </div>
 
     </div>
-    </>
+    </div>
   )
 }
 
