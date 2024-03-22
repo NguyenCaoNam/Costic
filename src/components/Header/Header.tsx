@@ -10,8 +10,8 @@ const Header = () => {
     <div className='flex flex-row items-center justify-between py-[18px] w-full'>
       <div className='flex flex-row gap-[32px] '>
         <Link to={"/"} className='nav'>Home</Link>
-        <Link to={"/aboutus"} className='nav'>About Us</Link>
-        <Link to={"/contact"} className='nav'>Contact</Link>
+        <Link to={"/aboutpage"} className='nav'>About Us</Link>
+        <Link to={"/contactpage"} className='nav'>Contact</Link>
         <Link to={"/shop"} className='nav'>Shop</Link>
         <Link to={"/blog"} className='nav'>Blog</Link>
         <Link to={"/trackorder"} className='nav'>Track Order</Link>

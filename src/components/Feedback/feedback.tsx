@@ -8,7 +8,7 @@ type Feedback = {
 }
 const FeedbackItem = ({ name, content, img }: Feedback) => {
   return (
-    <div>
+    <div className='item-stretch'>
       <img src={img} alt="" className='h-[80px] w-[80px] rounded-full overflow-hidden bg-contain relative top-[40px] right-[-172px] border-solid border-[#6E706E] border-[1px]' />
       <div className='flex flex-col gap-[8px] px-[16px] pb-[32px] pt-[48px] items-center rounded-[30px] border-solid border-[1px] border-[#6E706E]'>
         <div className='text-[24px] font-medium text-black w-[392px]'>{name}</div>
@@ -22,7 +22,7 @@ const Feedback = () => {
   return (
     <div className='flex flex-col gap-[20px] items-start'>
       <div className='text-[24px] leading-[18px] text-left border-b-[1px] border-solid py-[12px] w-[100%] font-bold border-black'>Feedback</div>
-      <div className='flex flex-row gap-[28px] items-start'>
+      <div className='flex flex-row gap-[28px] items-stretch'>
         {ListFeedback.map((Item) => {
           return (
             <FeedbackItem 

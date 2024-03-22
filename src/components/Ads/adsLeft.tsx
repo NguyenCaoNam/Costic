@@ -1,4 +1,3 @@
-import React from 'react'
 
 type AdsLeft={
   title: string,
@@ -8,7 +7,7 @@ type AdsLeft={
 
 const AdsLeft = ({title, description, img}:AdsLeft) => {
   return (
-    <div className='flex flex-row items-center justify-between w-100%'>
+    <div className='flex flex-row items-center justify-between w-full gap-[28px]'>
       <div className='flex flex-col gap-[64px] items-end'>
         <div className='flex flex-col items-end gap-[32px]'>
           <div className='text-[48px] text-black text-right'>{title}</div>

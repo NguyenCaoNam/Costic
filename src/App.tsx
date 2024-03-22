@@ -1,17 +1,5 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AdsLeft from './components/Ads/adsLeft'
-import AdsRight from './components/Ads/adsRight'
-import Blog from './components/Blog/Blog'
-import CardProductL from './components/CarProductL/CardProductL'
-import CardProductS from './components/CardProductS/CardProductS'
-import Feedback from './components/Feedback/feedback'
-import Footer from './components/Footer/Footer'
-import ForgotPassword from './components/Form/ForgotPassword'
-import LoginForm from './components/Form/FormLogin'
-import FormSignup from './components/Form/FormSignup'
-import Resetpassword from './components/Form/Resetpassword'
-import Header from './components/Header/Header'
 import DefaultLayout from './components/layouts/DefaultLayout';
 import HomePage from './Pages/HomePage';
 import AboutPage from './Pages/AboutPage';
