@@ -1,0 +1,10 @@
+export const ListCardProduct = [
+  {id: 1, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 2, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 3, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 4, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 5, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 6, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 7, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+  {id: 8, ProductName: '12% Pure Vitamin C + E + Salicylic Acid Serum', ProductImg: 'https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg', CurrentPrice: 250, OldPrice: 300},
+]

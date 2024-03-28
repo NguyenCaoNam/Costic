@@ -1,11 +1,11 @@
 import React from 'react'
 
-type iconMailProps = {
+type iconMail = {
   width?: number,
   height?: number,
   color?: string
 }
-const iconMail = ({ width, height, color }: iconMailProps) => {
+const IconMail = ({ width, height, color }: iconMail) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={width||"21"} height={height||"20"} viewBox="0 0 21 20" fill="none">
       <path d="M7.8335 8.75H13.6668" stroke={color||"#292D32"} stroke-width="1.25" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
@@ -14,4 +14,4 @@ const iconMail = ({ width, height, color }: iconMailProps) => {
   )
 }
 
-export default iconMail
+export default IconMail

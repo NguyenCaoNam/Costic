@@ -1,11 +1,11 @@
 import React from 'react'
 
-type iconLocationProps = {
+type iconLocation = {
   width?: number,
   height?: number,
   color?: string
 }
-const iconLocation = ({width,height,color}:iconLocationProps) => {
+const IconLocation = ({width,height,color}:iconLocation) => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width={width||"21"} height={height||"20"} viewBox="0 0 21 20" fill="none">
       <path d="M8.125 9.1665H12.7083" stroke={color||"#292D32"} stroke-width="1.25" stroke-linecap="round" />
@@ -14,4 +14,4 @@ const iconLocation = ({width,height,color}:iconLocationProps) => {
   )
 }
 
-export default iconLocation
+export default IconLocation

@@ -5,7 +5,7 @@ const AboutPage = () => {
     <div className="flex flex-col gap-[104px] w-full">
       <div className='flex flex-row gap-[64px] w-full items-center'>
         <div>
-          <img src="https://bloximages.chicago2.vip.townnews.com/wcfcourier.com/content/tncms/assets/v3/editorial/7/99/799b3c6b-7927-573f-8062-5a998426a0d3/642474695f312.image.jpg?resize=1200%2C800" alt="" className='w-[632px] h-[632px] overflow-hidden bg-auto' />
+          <img src="https://bloximages.chicago2.vip.townnews.com/wcfcourier.com/content/tncms/assets/v3/editorial/7/99/799b3c6b-7927-573f-8062-5a998426a0d3/642474695f312.image.jpg?resize=1200%2C800" alt="" className='w-[632px] h-[632px] overflow-hidden bg-auto object-contain' />
         </div>
         <div className='flex flex-col gap-[32px] items-start'>
           <div className='text-[48px] text-black text-left w-[632px] leading-[67px]'>OUR STORY</div>
@@ -32,7 +32,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div>
-          <img src="https://bloximages.chicago2.vip.townnews.com/wcfcourier.com/content/tncms/assets/v3/editorial/7/99/799b3c6b-7927-573f-8062-5a998426a0d3/642474695f312.image.jpg?resize=1200%2C800" alt="" className='w-[632px] h-[632px] overflow-hidden bg-auto' />
+          <img src="https://bloximages.chicago2.vip.townnews.com/wcfcourier.com/content/tncms/assets/v3/editorial/7/99/799b3c6b-7927-573f-8062-5a998426a0d3/642474695f312.image.jpg?resize=1200%2C800" alt="" className='w-[632px] h-[632px] overflow-hidden bg-auto object-contain' />
         </div>
       </div>
       <Feedback />
