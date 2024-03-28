@@ -1,75 +1,74 @@
-
-.ProductCardSmall{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
+.ProductCardSmall {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
 }
 
-.ProductImage{
-    width: 314px;
-    height: 314px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
+.ProductImage {
+  width: 314px;
+  height: 314px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
-.ContentProduct{
-    width: 314px;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:flex-start;
+.ContentProduct {
+  width: 314px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .Price {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-    align-items: end;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-end;
 }
 
 .OldPrice {
-    color: var(--Foundation-Grey-grey-200, #9C9D9C);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    /* 123.809% */
-    text-decoration-line: line-through;
-    font-family: Chesna Grotesk;
+  color: var(--Foundation-Grey-grey-200, #9c9d9c);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  /* 123.809% */
+  text-decoration-line: line-through;
+  font-family: Chesna Grotesk;
 }
 .NewPrice {
-    color: var(--Foundation-Black-black-300, #545454);
-    font-family: Chesna Grotesk;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    /* 103.175% */
+  color: var(--Foundation-Black-black-300, #545454);
+  font-family: Chesna Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  /* 103.175% */
 }
 
 .ProductName {
-    color: #333;
-    font-family: Chesna Grotesk;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    width: 210px;
-    text-align: left;
+  color: #333;
+  font-family: Chesna Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  width: 210px;
+  text-align: left;
 }
 .WrapProduct {
-    display: flex;
-    flex-direction: row;
-    gap: 28px;
-    align-items: start;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  align-items: flex-start;
 }
 
 .Title {
-    padding: 12px 0px;
-    border-bottom: 1px solid var(--Foundation-Grey-grey-900, #101110);
-    color: #000;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    font-family: Chesna Grotesk;
-    text-align: left;
+  padding: 12px 0px;
+  border-bottom: 1px solid var(--Foundation-Grey-grey-900, #101110);
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  font-family: Chesna Grotesk;
+  text-align: left;
 }
