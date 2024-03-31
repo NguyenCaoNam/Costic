@@ -12,6 +12,7 @@ import ShopPage from "./Pages/ShopPage";
 import TrackOrderPage from "./Pages/TrackOrderPage";
 import WishlistPage from "./Pages/WishlistPage";
 import DefaultLayout from "./components/layouts/DefaultLayout";
+import BlogDetail from "./Pages/BlogDetail";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="contact" element={<ContactPage />} />
             <Route path="shop" element={<ShopPage />} />
             <Route path="product/:id" element={<ProductDetail />} />
+            <Route path="blog/:id" element={<BlogDetail />} />
             <Route path="tracking-order" element={<TrackOrderPage />} />
             <Route path="personal" element={<PersonalPage />} />
             <Route path="cart" element={<CartProductPage />} />
