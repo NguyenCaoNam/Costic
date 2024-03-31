@@ -70,7 +70,10 @@ const BlogDetail = () => {
               <p className='text-[18px] leading-[25px] w-full text-left text-black'>Content</p>
             </div>
           </div> */}
-          <Comment comment={blogDetail?.comment} />
+          {blogDetail?.comment.length &&
+            blogDetail.comment.map((comment) => (
+              <Comment key={comment.id} comment={comment} />
+            ))}
         </div>
       </div>
       <FormSignup />
