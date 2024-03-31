@@ -7,7 +7,7 @@ import Feedback from "../components/Feedback/feedback";
 import { LisTag } from "../components/Tag/LisTag";
 import Tag from "../components/Tag/Tag";
 import { ListBlog } from "../utils/data/ListBlog";
-import BlogItem from "../components/Blog/blogItem";
+import BlogItem from "../components/Blog/BlogItem";
 
 const HomePage = () => {
   return (
