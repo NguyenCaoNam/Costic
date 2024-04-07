@@ -15,7 +15,7 @@ const ProductDetail = () => {
   console.log(productDetail);
 
   return (
-    <div className="flex flex-row gap-[64px] items-start">
+    <div><div className="flex flex-row gap-[64px] items-start">
       <div className="flex flex-col gap-[16px] items-start">
         <div className="w-[632px] h-[632px] object-cover">
           <img src={productDetail?.productImg[0]} alt="" />
@@ -130,6 +130,18 @@ const ProductDetail = () => {
         </div>
       </div>
     </div>
+      <div className="flex flex-col gap-[40px]">
+        <div className="flex flex-row gap-[opx]">
+          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Description</p>
+          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Review</p>
+          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Ship & Return</p>
+        </div>
+        <div>
+          1
+        </div>
+      </div>
+    </div>
+
   );
 };
 

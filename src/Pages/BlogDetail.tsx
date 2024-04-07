@@ -52,11 +52,11 @@ const BlogDetail = () => {
           <IconYoutube color="black" />
         </div>
       </div>
-      <div className="flex flex-col gap-[32px] items-center">
+      <div className="flex flex-col gap-[32px] items-start">
         <div className="text-[24px] font-bold text-center border-solid border-b border-[#000000] pb-[16px]">
           Comment
         </div>
-        <div className="flex flex-col gap-[16px] items-center">
+        <div className="flex flex-col gap-[16px] items-center w-full">
           {/* comment đây anh */}
           {/* <div className='flex flex-row gap-[16px] items-start w-full'>
             <div className='h-[70px] w-[70px] rounded-full object-contain overflow-hidden'>

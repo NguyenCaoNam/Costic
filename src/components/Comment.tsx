@@ -18,7 +18,7 @@ const Comment = ({ comment }: CommentProps) => {
             {comment?.date}
           </p>
         </div>
-        <p className="text-[18px] leading-[25px] w-full text-left text-black">
+        <p className="text-[18px] leading-[25px] w-[1241px] text-left text-black">
           {comment?.content}
         </p>
       </div>

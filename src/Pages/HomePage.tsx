@@ -11,7 +11,7 @@ import BlogItem from "../components/Blog/BlogItem";
 
 const HomePage = () => {
   return (
-    <>
+    <div>
       <AdsRight
         title={"2023 HALF-YEAR RESULT"}
         description={
@@ -58,7 +58,7 @@ const HomePage = () => {
             })}
           </div>
         </div>
-        <div className="flex flex-row gap-[24px] w-full">
+        <div className="flex flex-wrap gap-[24px] w-[1328px]">
           {/* chỗ này phải là camel case itemproduct => itemProduct */}
           {ListCardProduct.map((itemProduct) => (
             <CardProductSItem key={itemProduct.id} itemCard={itemProduct} />
@@ -86,11 +86,11 @@ const HomePage = () => {
         <div className='text-[24px] leading-[18px] text-left border-b-[1px] border-solid py-[12px] w-[100%] font-bold border-black'>Blogs</div>
         <div className='flex flex-col gap-[8px] w-full'>
           {ListBlog.map((itemBlog) => (
-            <BlogItem key={itemBlog.id} itemBlogDetail={itemBlog}/>
+            <BlogItem key={itemBlog.id} itemBlogDetail={itemBlog} />
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
