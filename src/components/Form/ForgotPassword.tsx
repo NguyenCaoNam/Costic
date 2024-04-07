@@ -11,6 +11,7 @@ export default function ForgotPassword () {
   const { register, handleSubmit, formState: { errors }, reset} = useForm({
     resolver: yupResolver(schema),
   })
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const onSubmit = (data: any) => {
     console.log({data});
     reset();

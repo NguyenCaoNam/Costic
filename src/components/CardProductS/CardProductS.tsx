@@ -1,24 +1,23 @@
-import React from 'react'
 import styles from './ProductCard.module.scss'
-import { ListCardProductS } from './ListCardProductS'
+import { Link } from 'react-router-dom'
 
-type TCard = {
-  ProductName: string,
-  CurrentPrice: number,
-  OldPrice: number,
-  ProductImg?: string,
-}
+type CardProductSItemProps = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  itemCard: any;
+};
 
-const CardProductSItem = ({ ProductName, CurrentPrice, OldPrice, ProductImg }: TCard) => {
+const CardProductSItem = ({itemCard}: CardProductSItemProps) => {
   return (
     <div className={styles.ProductCardSmall}>
-      <img className={styles.ProductImage} src={ProductImg} alt="" />
+      <Link to={`product/${itemCard.id}`}>
+        <img className={styles.ProductImage} src={itemCard.productImg[0]} alt="" />
+      </Link>
       <div className={styles.ContentProduct}>
-        <div className={styles.ProductName}>{ProductName}</div>
-        <div className={styles.Price}>
-          <div className={styles.NewPrice}>{CurrentPrice}$</div>
-          <div className={styles.OldPrice}>{OldPrice}$</div>
-        </div>
+        <Link to={`product/${itemCard.id}`}className={styles.ProductName}>{itemCard.productName}</Link>
+        <Link to={`product/${itemCard.id}`} className={styles.Price}>
+          <div className={styles.NewPrice}>{itemCard.currentPrice}$</div>
+          <div className={styles.OldPrice}>{itemCard.oldPrice}$</div>
+        </Link>
       </div>
     </div>
   )

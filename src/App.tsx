@@ -12,6 +12,10 @@ import ShopPage from "./Pages/ShopPage";
 import TrackOrderPage from "./Pages/TrackOrderPage";
 import WishlistPage from "./Pages/WishlistPage";
 import DefaultLayout from "./components/layouts/DefaultLayout";
+import BlogDetail from "./Pages/BlogDetail";
+import DealOfTheWeek from "./Pages/DealOfTheWeek";
+
+
 
 function App() {
   return (
@@ -25,10 +29,15 @@ function App() {
             <Route path="contact" element={<ContactPage />} />
             <Route path="shop" element={<ShopPage />} />
             <Route path="product/:id" element={<ProductDetail />} />
-            <Route path="tracking-order" element={<TrackOrderPage />} />
+            <Route path="blog/:id" element={<BlogDetail />} />
+            <Route path="trackingorder" element={<TrackOrderPage />} />
             <Route path="personal" element={<PersonalPage />} />
             <Route path="cart" element={<CartProductPage />} />
             <Route path="wishlist" element={<WishlistPage />} />
+            <Route path="dealoftheweek" element={<DealOfTheWeek />} />
+            <Route element={<DealOfTheWeek />}>
+              <Route path="dealoftheweek/product/:id" element={<ProductDetail />} />
+            </Route>
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>

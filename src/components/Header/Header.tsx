@@ -10,11 +10,11 @@ const Header = () => {
     <div className='flex flex-row items-center justify-between py-[18px] w-full'>
       <div className='flex flex-row gap-[32px] '>
         <Link to={"/"} className='nav'>Home</Link>
-        <Link to={"/aboutpage"} className='nav'>About Us</Link>
-        <Link to={"/contactpage"} className='nav'>Contact</Link>
+        <Link to={"/about"} className='nav'>About Us</Link>
+        <Link to={"/contact"} className='nav'>Contact</Link>
         <Link to={"/shop"} className='nav'>Shop</Link>
         <Link to={"/blog"} className='nav'>Blog</Link>
-        <Link to={"/trackorder"} className='nav'>Track Order</Link>
+        <Link to={"/trackingorder"} className='nav'>Track Order</Link>
       </div>
       <IconCostic color='black' />
       <div className='flex flex-row gap-[64px]'>
@@ -24,7 +24,7 @@ const Header = () => {
         </div>
         <div className='flex flex-row items-center gap-[32px]'>
           <Link to={"/wishlist"}><IconHeart/></Link>
-          <Link to={"/cartproduct"}><IconCardproduct /></Link>
+          <Link to={"/cart"}><IconCardproduct /></Link>
           <Link to={"/personal"}><IconPersonal /></Link>
         </div>
       </div>

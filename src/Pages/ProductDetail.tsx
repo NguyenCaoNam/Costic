@@ -1,45 +1,50 @@
 import { useParams } from "react-router-dom";
-import { ListCardProduct } from "../components/CarProductL/ListCardProduct";
+import { ListCardProduct } from "../utils/data/ListCardProduct";
 import HandleQuantityProduct from "../components/Event/HandleQuantityProduct";
 import LikeHandle from "../components/Event/LikeHandle";
+import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
+import IconFreeship from "../utils/icon/FeartureSupport/iconFreeship";
+import IconReturn from "../utils/icon/iconReturn";
 
 const ProductDetail = () => {
   const params = useParams();
   const { id } = params;
 
   //Find product theo id;
-  const productDetail = ListCardProduct.find((item) => item.id === Number(id));
+  const productDetail = ListCardProduct.find((itemCard) => itemCard.id === Number(id));
   console.log(productDetail);
 
   return (
-    <div className="flex flex-row gap-[64px] items-start">
-      <div className="flex flex-row gap-[16px] items-start">
-        <div className="w-[632px] h-[632px] object-cover"></div>
+    <div><div className="flex flex-row gap-[64px] items-start">
+      <div className="flex flex-col gap-[16px] items-start">
+        <div className="w-[632px] h-[632px] object-cover">
+          <img src={productDetail?.productImg[0]} alt="" />
+        </div>
         <div className="flex flex-row gap-[16px] items-center">
           <div className="h-[146px] w-[146px] object-contain">
             <img
-              src={productDetail?.productImg}
+              src={productDetail?.productImg[1]}
               alt=""
               className="h-full w-auto object-contain overflow-hidden"
             />
           </div>
           <div className="h-[146px] w-[146px] object-contain">
             <img
-              src=""
+              src={productDetail?.productImg[2]}
               alt=""
               className="h-full w-auto object-contain overflow-hidden"
             />
           </div>
           <div className="h-[146px] w-[146px] object-contain">
             <img
-              src=""
+              src={productDetail?.productImg[3]}
               alt=""
               className="h-full w-auto object-contain overflow-hidden"
             />
           </div>
           <div className="h-[146px] w-[146px] object-contain">
             <img
-              src=""
+              src={productDetail?.productImg[4]}
               alt=""
               className="h-full w-auto object-contain overflow-hidden"
             />
@@ -56,13 +61,13 @@ const ProductDetail = () => {
               Only 55 Item Left!
             </div>
           </div>
-          <div className="flex flex-col gap-[24px] items-start border-b-[#E9EAE9] border-[1px] border-solid pb-[24px]">
-            <div className="flex flex-col gap-[16px] items-start">
-              <div className="text-[20px] font-[500] text-[#545454] text-left w-full">
-                {productDetail?.currentPrice}
+          <div className="flex flex-col gap-[24px] items-start border-[#E9EAE9] border-b border-solid pb-[24px]">
+            <div className="flex flex-row gap-[16px] items-center">
+              <div className="text-[30px] font-[500] text-[#000000] text-left w-full">
+                {productDetail?.currentPrice}$
               </div>
-              <div className="text-[18px] font-[500] text-[#545454] text-left w-full line-through">
-                {productDetail?.oldPrice}
+              <div className="text-[20px] font-[500] text-[#545454] text-left w-full line-through">
+                {productDetail?.oldPrice}$
               </div>
             </div>
             <div className="flex flex-row gap-[32px] items-center">
@@ -83,7 +88,7 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-[16px] items-start pb-[24px] border-solid border-[1px] border-[#E9EAE9] w-[632px]">
+        <div className="flex flex-col gap-[16px] items-start pb-[24px] border-solid border-b border-[#E9EAE9] w-[632px]">
           <div className=" text-[18px] font-[500px] text-[#6E706E]">
             #Treatment #Serum #Costic{" "}
           </div>
@@ -100,43 +105,43 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
-        {/* <div className="ProductDetail3">
-          <div className="ServiceItem">
-            <div className="ImgServiceItem" style="
-                                background-image: url(/Media/Img/ProductDetail/Service/Group\ 8114.png);
-                                width: 32.307px;
-                                height: 30px;
-                                background-repeat: no-repeat;"></div>
-            <div style="display: flex; flex-direction: column; align-items: start; gap: 4px;">
-              <div className="TitelServiceItem">Estimated Delivery</div>
-              <div className="DescriptionServiceItem">With 4 days</div>
+        <div className="flex flex-wrap gap-[16px] w-full items-start">
+          <div className="flex px-[24px] py-[4px] justify-center gap-[16px] rounded-[40px] border-[#545454] border-[1px] bg-[#F6F6F6] border-solid items-center">
+            <IconEstimateship />
+            <div className="flex flex-col items-start gap-[0px]">
+              <div className="text-center font-[500] text-[18px] text-[#101110]">Estimated Delivery</div>
+              <div className="text-[18px] font-[400] text-center text-[#6E706E]">With 4 days</div>
             </div>
           </div>
-          <div className="ServiceItem">
-            <div className="ImgServiceItem" style="
-                            background-image: url(/Media/Img/ProductDetail/Service/Group\ 8116.png);
-                            width: 32.307px;
-                            height: 30px;
-                            background-repeat: no-repeat;"></div>
-            <div style="display: flex; flex-direction: column; align-items: start; gap: 4px;">
-              <div className="TitelServiceItem">Free Shipping</div>
-              <div className="DescriptionServiceItem">Order over 100$</div>
+          <div className="flex px-[24px] py-[4px] justify-center gap-[16px] rounded-[40px] border-[#545454] border-[1px] bg-[#F6F6F6] border-solid items-center">
+            <IconFreeship />
+            <div className="flex flex-col items-start gap-[0px]">
+              <div className="text-center font-[500] text-[18px] text-[#101110]">Free Shipping</div>
+              <div className="text-[18px] font-[400] text-center text-[#6E706E]">Order over 100$</div>
             </div>
           </div>
-          <div className="ServiceItem">
-            <div className="ImgServiceItem" style="
-                            background-image: url(/Media/Img/ProductDetail/Service/Vector.png);
-                            width: 32.307px;
-                            height: 30px;
-                            background-repeat: no-repeat;"></div>
-            <div style="display: flex; flex-direction: column; align-items: start; gap: 4px;">
-              <div className="TitelServiceItem">7 Days Return</div>
-              <div className="DescriptionServiceItem">With 4 days</div>
+          <div className="flex px-[24px] py-[4px] justify-center gap-[16px] rounded-[40px] border-[#545454] border-[1px] bg-[#F6F6F6] border-solid items-center">
+            <IconReturn />
+            <div className="flex flex-col items-start gap-[0px]">
+              <div className="text-center font-[500] text-[18px] text-[#101110]">7 Days Return</div>
+              <div className="text-[18px] font-[400] text-center text-[#6E706E]">With 4 days</div>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
+      <div className="flex flex-col gap-[40px]">
+        <div className="flex flex-row gap-[opx]">
+          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Description</p>
+          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Review</p>
+          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Ship & Return</p>
+        </div>
+        <div>
+          1
+        </div>
+      </div>
+    </div>
+
   );
 };
 

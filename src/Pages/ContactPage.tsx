@@ -3,8 +3,6 @@ import ContactWithUsForm from '../components/Form/ContactWithUs'
 import IconCall from '../utils/icon/iconCall'
 import IconMail from '../utils/icon/iconMail'
 import IconLocation from '../utils/icon/iconLocation'
-import LikeHandle from '../components/Event/LikeHandle'
-import HandleQuantityProduct from '../components/Event/HandleQuantityProduct'
 
 const ContactPage = () => {
   return (
@@ -45,11 +43,6 @@ const ContactPage = () => {
         </div>
       </div>
       <ContactWithUsForm />
-      <div>
-        <LikeHandle />
-        <br />
-        <HandleQuantityProduct />
-      </div>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import IconMinus from "../../utils/icon/iconMinus";
 import IconAdd from "../../utils/icon/iconAdd";
 
@@ -14,11 +14,11 @@ const HandleQuantityProduct = () => {
     setCurrentQuantity(CurrentQuantity + 1)
   }
   return (
-    <div className="flex flex-row gap-[24px] items-center px-[12px] py-[16px] rounded-[30px] border-solid border-[#E1E1E1] border-[1px] bg-white">
+    <div className="flex flex-row gap-[24px] items-center px-[16px] py-[8px] h-fit rounded-[30px] border-solid border-[#E1E1E1] border-[1px] bg-white">
       <div onClick={handleMinus}>
         <IconMinus />
       </div>
-      <div className="text-[16px] font-medium leading-[22px] text-center w-[25px]">{CurrentQuantity}</div>
+      <div className="text-[14px] font-medium leading-[22px] text-center w-[25px]">{CurrentQuantity}</div>
       <div onClick={handleAdd}>
         <IconAdd />
       </div>

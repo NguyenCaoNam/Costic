@@ -1,17 +1,17 @@
 import AdsLeft from "../components/Ads/adsLeft";
 import AdsRight from "../components/Ads/adsRight";
-import Blog from "../components/Blog/Blog";
 import CardProductLItem from "../components/CarProductL/CardProductL";
-import { ListCardProduct } from "../components/CarProductL/ListCardProduct";
+import { ListCardProduct } from "../utils/data/ListCardProduct";
 import CardProductSItem from "../components/CardProductS/CardProductS";
-import { ListCardProductS } from "../components/CardProductS/ListCardProductS";
 import Feedback from "../components/Feedback/feedback";
 import { LisTag } from "../components/Tag/LisTag";
 import Tag from "../components/Tag/Tag";
+import { ListBlog } from "../utils/data/ListBlog";
+import BlogItem from "../components/Blog/BlogItem";
 
 const HomePage = () => {
   return (
-    <>
+    <div>
       <AdsRight
         title={"2023 HALF-YEAR RESULT"}
         description={
@@ -28,7 +28,7 @@ const HomePage = () => {
         <div className="flex flex-wrap gap-[28px] w-[1328px]">
           {/* chỗ này phải là camel case itemproduct => itemProduct */}
           {ListCardProduct.map((itemProduct) => (
-            <CardProductLItem key={itemProduct.id} item={itemProduct} />
+            <CardProductLItem key={itemProduct.id} itemCard={itemProduct} />
           ))}
         </div>
         <div className="Btn_secondary"> More</div>
@@ -58,18 +58,11 @@ const HomePage = () => {
             })}
           </div>
         </div>
-        <div className="flex flex-row gap-[24px] w-full">
-          {ListCardProductS.map((Item) => {
-            return (
-              <CardProductSItem
-                key={Item.id}
-                ProductImg={Item.ProductImg}
-                ProductName={Item.ProductName}
-                CurrentPrice={Item.CurrentPrice}
-                OldPrice={Item.OldPrice}
-              />
-            );
-          })}
+        <div className="flex flex-wrap gap-[24px] w-[1328px]">
+          {/* chỗ này phải là camel case itemproduct => itemProduct */}
+          {ListCardProduct.map((itemProduct) => (
+            <CardProductSItem key={itemProduct.id} itemCard={itemProduct} />
+          ))}
         </div>
         <div className="Btn_secondary">More</div>
       </div>
@@ -89,8 +82,15 @@ const HomePage = () => {
         />
       </div>
       <Feedback />
-      <Blog />
-    </>
+      <div className='flex flex-col gap-[40px] items-start w-full'>
+        <div className='text-[24px] leading-[18px] text-left border-b-[1px] border-solid py-[12px] w-[100%] font-bold border-black'>Blogs</div>
+        <div className='flex flex-col gap-[8px] w-full'>
+          {ListBlog.map((itemBlog) => (
+            <BlogItem key={itemBlog.id} itemBlogDetail={itemBlog} />
+          ))}
+        </div>
+      </div>
+    </div>
   );
 };
 
