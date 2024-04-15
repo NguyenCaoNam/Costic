@@ -1,7 +1,15 @@
-import React from 'react'
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { useState } from 'react'
 import HandleQuantityProduct from '../components/Event/HandleQuantityProduct'
+import { useAppDispatch, useAppSelector } from '../hooks';
+import { selectProduct } from '../redux/rootSlice';
+
 
 const CartProductPage = () => {
+  const dispatch = useAppDispatch();
+  const [quanlity, setQuanlity] = useState(1);
+  const selectProducts = useAppSelector(selectProduct)
   return (
     <div className='flex flex-col gap-[80px] items-center'>
       <p className='leading-[45px] font-medium text-[32px] text-left w-full'>CART</p>
@@ -15,29 +23,23 @@ const CartProductPage = () => {
               <p className='text-left font-bold text-[18px] w-[75px]'>Subtotal</p>
               <p className='w-[85px]'></p>
             </div>
-            <div className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
-              <div className='flex flex-row items-start gap-[16px] w-[560px]'>
-                <div className='w-[130px] h-[130px] object-contain overflow-hidden'>
-                  <img src="https://i.pinimg.com/736x/5a/db/16/5adb167899bc83d07d7ca4007339036a.jpg" alt="" />
-                </div>
-                <div className='text-[20px] font-medium text-left leading-[28px] w-[]'>55+ Anti-Wrinkle Eye Treatment</div>
-              </div>
-              <HandleQuantityProduct />
-              <div className='text-[18px] text-center w-[74px] leading-[74px]'>750$</div>
-              <div className='text-[18px] text-center w-[74px] leading-[75px]'>750$</div>
-              <a className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]'>Delete</a>
-            </div>
-            <div className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
-              <div className='flex flex-row items-start gap-[16px] w-[560px]'>
-                <div className='w-[130px] h-[130px] object-contain overflow-hidden'>
-                  <img src="https://i.pinimg.com/736x/5a/db/16/5adb167899bc83d07d7ca4007339036a.jpg" alt="" />
-                </div>
-                <div className='text-[20px] font-medium text-left leading-[28px] w-[]'>55+ Anti-Wrinkle Eye Treatment</div>
-              </div>
-              <HandleQuantityProduct />
-              <div className='text-[18px] text-center w-[74px] leading-[74px]'>750$</div>
-              <div className='text-[18px] text-center w-[74px] leading-[75px]'>750$</div>
-              <a className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]'>Delete</a>
+            <div>
+              {selectProducts.map((item) => {
+                return (
+                  <div className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
+                    <div className='flex flex-row items-start gap-[16px] w-[560px]'>
+                      <div className='w-[130px] h-[130px] object-contain overflow-hidden'>
+                        <img src={item.productImg[0]} alt="" />
+                      </div>
+                      <div className='text-[20px] font-medium text-left leading-[28px] w-[]'>{item.productName}</div>
+                    </div>
+                    <HandleQuantityProduct quanlity={quanlity} setQuanlity={setQuanlity} />
+                    <div className='text-[18px] text-center w-[74px] leading-[74px]'>{item.currentPrice}</div>
+                    <div className='text-[18px] text-center w-[74px] leading-[75px]'>{item.currentPrice * item.quanlity}</div>
+                    <a className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]'>Delete</a>
+                  </div>
+                )
+              })}
             </div>
           </div>
           <div className='Btn_secondary w-fit'>Clear Cart</div>

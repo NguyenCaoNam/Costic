@@ -25,6 +25,8 @@ const rootSlice = createSlice({
       state.number -= action.payload;
     },
     addProduct: (state, action) => {
+      console.log(action.payload)
+      
       state.product = [...state.product, action.payload];
     },
   },

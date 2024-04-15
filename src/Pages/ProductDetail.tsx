@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useParams } from "react-router-dom";
 import { ListCardProduct } from "../utils/data/ListCardProduct";
 import HandleQuantityProduct from "../components/Event/HandleQuantityProduct";
@@ -15,11 +16,10 @@ const ProductDetail = () => {
   const selectProducts = useAppSelector(selectProduct)
 
   const dispatch = useAppDispatch();
-  const [quanlity, setQuanlity] = useState(0);
+  const [quanlity, setQuanlity] = useState(1);
 
   //Find product theo id;
   const productDetail = ListCardProduct.find((itemCard) => itemCard.id === Number(id));
-  console.log(productDetail);
 
   const handleAddProduct = () => {
     const data = {
@@ -27,6 +27,7 @@ const ProductDetail = () => {
       quanlity: quanlity,
     }
     dispatch(addProduct(data))
+    console.log(selectProducts);
   }
 
   return (
