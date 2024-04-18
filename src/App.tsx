@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import AboutPage from "./Pages/AboutPage";
@@ -15,15 +16,13 @@ import DefaultLayout from "./components/layouts/DefaultLayout";
 import BlogDetail from "./Pages/BlogDetail";
 import DealOfTheWeek from "./Pages/DealOfTheWeek";
 
-
-
 function App() {
   return (
     <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<DefaultLayout />}>
-            <Route index element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
             <Route path="blog" element={<BlogPage />} />
             <Route path="contact" element={<ContactPage />} />

@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import AdsLeft from "../components/Ads/adsLeft";
 import AdsRight from "../components/Ads/adsRight";
 import CardProductLItem from "../components/CarProductL/CardProductL";
@@ -8,8 +9,24 @@ import { LisTag } from "../components/Tag/LisTag";
 import Tag from "../components/Tag/Tag";
 import { ListBlog } from "../utils/data/ListBlog";
 import BlogItem from "../components/Blog/BlogItem";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
+
+  const [bestSellerList, setBestSellerList] = useState<IProduct[]>([]);
+  const [listProduct, setListProduct] = useState<IProduct[]>([]);
+
+  useEffect(() => {
+    if (ListCardProduct) {
+      const resultSort = ListCardProduct.sort((a, b) => b.counter - a.counter)
+      const resultBestSeller = resultSort.slice(0, 4)
+      setBestSellerList(resultBestSeller)
+
+      const resultProduct = ListCardProduct.slice(0, 4)
+      setListProduct(resultProduct)
+    }
+  }, [ListCardProduct])
+
   return (
     <div>
       <AdsRight
@@ -27,11 +44,11 @@ const HomePage = () => {
         </div>
         <div className="flex flex-wrap gap-[28px] w-[1328px]">
           {/* chỗ này phải là camel case itemproduct => itemProduct */}
-          {ListCardProduct.map((itemProduct) => (
-            <CardProductLItem key={itemProduct.id} itemCard={itemProduct} />
+          {bestSellerList?.map((itemProduct) => (
+            <CardProductLItem key={itemProduct?.id} itemCard={itemProduct} />
           ))}
         </div>
-        <div className="Btn_secondary"> More</div>
+        <Link to={"/shop"} className="Btn_secondary">More</Link>
       </div>
       <div className="flex flex-col w-full items-center gap-[40px]">
         <div className="text-[24px] w-full font-bold heading-auto py-[12px] border-solid border-b-[1px] border-black text-left">
@@ -60,11 +77,11 @@ const HomePage = () => {
         </div>
         <div className="flex flex-wrap gap-[24px] w-[1328px]">
           {/* chỗ này phải là camel case itemproduct => itemProduct */}
-          {ListCardProduct.map((itemProduct) => (
-            <CardProductSItem key={itemProduct.id} itemCard={itemProduct} />
+          {listProduct?.map((itemProduct) => (
+            <CardProductSItem key={itemProduct?.id} itemCard={itemProduct} />
           ))}
         </div>
-        <div className="Btn_secondary">More</div>
+        <Link to={"/shop"} className="Btn_secondary">More</Link>
       </div>
 
       <div className="flex flex-col w-full items-center gap-[40px]">

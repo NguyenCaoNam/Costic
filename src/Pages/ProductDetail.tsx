@@ -1,34 +1,51 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+import React from "react";
 import { useParams } from "react-router-dom";
 import { ListCardProduct } from "../utils/data/ListCardProduct";
 import HandleQuantityProduct from "../components/Event/HandleQuantityProduct";
-import LikeHandle from "../components/Event/LikeHandle";
 import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
 import IconFreeship from "../utils/icon/FeartureSupport/iconFreeship";
 import IconReturn from "../utils/icon/iconReturn";
 import { useAppDispatch, useAppSelector } from "../hooks";
-import { addProduct, selectProduct } from "../redux/rootSlice";
-import { useState } from "react";
+import { addProduct, setFavourite } from "../redux/rootSlice";
+import { useEffect, useState } from "react";
+import IconHeart from "../utils/icon/iconHeart";
 
 const ProductDetail = () => {
-  const params = useParams();
-  const { id } = params;
-  const selectProducts = useAppSelector(selectProduct)
+  const [quanlity, setQuanlity] = useState(1);
+  const [isLike, setIsLike] = useState(false);
 
   const dispatch = useAppDispatch();
-  const [quanlity, setQuanlity] = useState(1);
+  const params = useParams();
+  const { id } = params;
 
   //Find product theo id;
   const productDetail = ListCardProduct.find((itemCard) => itemCard.id === Number(id));
+  const favouriteList = useAppSelector(state => state.root.listFavourite)
 
   const handleAddProduct = () => {
     const data = {
       ...productDetail,
       quanlity: quanlity,
     }
-    dispatch(addProduct(data))
-    console.log(selectProducts);
+    dispatch(addProduct({ id: productDetail?.id, data }))
   }
+
+  const handleLike = () => {
+    setIsLike(!isLike);
+    if (!isLike) {
+      dispatch(setFavourite({ productDetail, isLike: true }))
+    } else {
+      dispatch(setFavourite({ productDetail, isLike: false }))
+    }
+  };
+
+  useEffect(() => {
+    if (favouriteList) {
+      const result = favouriteList.find(item => item?.id === productDetail?.id)
+      result ? setIsLike(true) : setIsLike(false)
+    }
+  }, [favouriteList])
+
 
   return (
     <div>
@@ -98,7 +115,9 @@ const ProductDetail = () => {
                 <div className="Btn_secondary" onClick={handleAddProduct}>Add To Cart</div>
               </div>
               <div className="flex flex-row gap-[8px] items-center">
-                <LikeHandle />
+                <div onClick={handleLike} className={`h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px] ${isLike ? "bg-black" : "bg-white"}`}>
+                  {isLike ? <IconHeart height={18} width={19.62} color='#FFFFFF' /> : <IconHeart height={18} width={19.62} color='#000000' />}
+                </div>
                 <div className="Share">
                   <div>Share</div>
                 </div>

@@ -1,3 +1,4 @@
+import React from 'react'
 import IconMinus from "../../utils/icon/iconMinus";
 import IconAdd from "../../utils/icon/iconAdd";
 

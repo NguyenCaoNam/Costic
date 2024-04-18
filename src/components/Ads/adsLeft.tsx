@@ -1,4 +1,4 @@
-
+import React from 'react'
 type AdsLeft={
   title: string,
   description: string,

@@ -5,8 +5,6 @@ import IconInsta from '../../utils/icon/IconInsta'
 import IconX from '../../utils/icon/IconX'
 import IconYoutube from '../../utils/icon/IconYoutube'
 
-
-
 const Footer = () => {
   return (
     <div className='flex flex-row justify-between pr-[128px] pl-[128px] pt-[80px] pb-[80px] bg-black w-full mx-[0px]'>

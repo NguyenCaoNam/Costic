@@ -1,3 +1,4 @@
+import React from 'react';
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -16,7 +17,7 @@ export default function ContactWithUsForm() {
   })
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const onSubmit = (data:any) => {
+  const onSubmit = (data: any) => {
     console.log({ data });
     reset();
   }
@@ -44,9 +45,9 @@ export default function ContactWithUsForm() {
           <div className="flex flex-col gap-[8px] items-start">
             <div className="text-[16px] text-medium leading-[22px]">Message</div>
             <input {...register("message")}
-            className="Input h-[224px]"
-            type="text"
-            placeholder="Type your message" />
+              className="Input h-[224px]"
+              type="text"
+              placeholder="Type your message" />
             <p className="text-grey">{errors.message?.message}</p>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import React from "react";
 type IconCardproduct = {
   width?: number;
   height?: number;

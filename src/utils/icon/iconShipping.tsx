@@ -1,3 +1,4 @@
+import React from "react";
 type IconShipping = {
   width?: number;
   height?: number;

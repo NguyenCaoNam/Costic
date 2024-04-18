@@ -1,3 +1,4 @@
+import React from 'react'
 import IconFreeship from '../../utils/icon/FeartureSupport/iconFreeship'
 import IconReturn from '../../utils/icon/iconReturn'
 import IconScurity from '../../utils/icon/iconScurity'

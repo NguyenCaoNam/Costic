@@ -1,3 +1,4 @@
+import React from 'react'
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
@@ -13,7 +14,7 @@ export default function LoginForm() {
     resolver: yupResolver(schema),
   });
   const onSubmit = (data: unknown) => {
-    console.log({data});
+    console.log({ data });
     reset();
   }
   return (
@@ -51,8 +52,8 @@ export default function LoginForm() {
         <div className='flex flex-col items-center gap-[16px]'>
           <div className='flex flex-row gap-[16px]'>
             <button className='Btn_secondary w-[195px]' type='button'>Back</button>
-            <button className='Btn_primary w-[195px]' 
-            type='submit'
+            <button className='Btn_primary w-[195px]'
+              type='submit'
             >LOGIN</button>
           </div>
           <div className='flex flex-row gap-[4px]'>
