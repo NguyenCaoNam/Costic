@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { addLoading, removeLoading } from './actions';
-import { RootState } from '.';
 
 const initialState: IRootState = {
   loading: 0,
@@ -27,18 +26,42 @@ const rootSlice = createSlice({
     },
     addProduct: (state, action) => {
       const result = state.product.find(item => item?.id === action.payload.id)
-      if (!result) {
+      if (result) {
+        const result = state.product?.map(item => {
+          if (item.id === action.payload.id) {
+            item.quanlity = item.quanlity + action.payload.data.quanlity
+          }
+          return item
+        })
+        state.product = result;
+      } else {
         state.product = [...state.product, action.payload.data];
       }
+    },
+    incrementProduct: (state, action) => {
+      const result = state.product?.map(item => {
+        if (item.id === action.payload) {
+          item.quanlity += 1
+        }
+        return item
+      })
+      state.product = result
+    },
+    decrementProduct: (state, action) => {
+      const result = state.product?.map(item => {
+        if (item.id === action.payload) {
+          item.quanlity -= 1
+        }
+        return item
+      })
+      state.product = result
     },
     clearProduct: (state) => {
       state.product = []
     },
     clearProductById: (state, action) => {
-      if (action.payload) {
-        const result = state.listFavourite.filter(item => item.id !== action.payload)
-        state.product = result
-      }
+      const result = state.listFavourite.filter(item => item.id !== action.payload)
+      state.product = result
     },
     setFavourite: (state, action) => {
       if (!action.payload.isLike) {
@@ -81,7 +104,7 @@ export const {
   clearFavourite,
   clearFavouriteById,
   clearProduct,
-  clearProductById
+  clearProductById,
+  decrementProduct,
+  incrementProduct
 } = rootSlice.actions
-export const selectProduct = (state: RootState) => state.root.product
-export const selectNumber = (state: RootState) => state.root.number
