@@ -1,3 +1,4 @@
+import React from "react";
 type iconLocation = {
   width?: number;
   height?: number;

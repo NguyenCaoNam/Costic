@@ -1,4 +1,4 @@
-
+import React from "react";
 type iconArrowupProps = {
   width?: number;
   height?: number;

@@ -11,6 +11,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 1,
+    category: "Skin Care Product",
+    counter: 10
   },
   {
     id: 2,
@@ -24,6 +27,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 1,
+    category: "Skin Care Product",
+    counter: 9
   },
   {
     id: 3,
@@ -37,6 +43,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 3,
+    category: "Ingredient",
+    counter: 2
   },
   {
     id: 4,
@@ -50,6 +59,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 3,
+    category: "Ingredient",
+    counter: 6
   },
   {
     id: 5,
@@ -63,6 +75,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 2,
+    category: "Skin Concers",
+    counter: 5
   },
   {
     id: 6,
@@ -76,6 +91,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 2,
+    category: "Skin Concers",
+    counter: 3
   },
   {
     id: 7,
@@ -89,6 +107,9 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 1,
+    category: "Skin Care Product",
+    counter: 1
   },
   {
     id: 8,
@@ -102,5 +123,8 @@ export const ListCardProduct = [
     ],
     currentPrice: 250,
     oldPrice: 300,
+    categoryId: 2,
+    category: "Skin Concers",
+    counter: 12
   },
 ];

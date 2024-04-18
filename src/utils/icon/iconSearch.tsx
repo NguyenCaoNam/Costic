@@ -1,3 +1,4 @@
+import React from "react";
 type IconSearch = {
   width?: number;
   height?: number;

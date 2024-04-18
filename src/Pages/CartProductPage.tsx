@@ -1,15 +1,21 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import { useState } from 'react'
+import React, { useState } from 'react'
 import HandleQuantityProduct from '../components/Event/HandleQuantityProduct'
 import { useAppDispatch, useAppSelector } from '../hooks';
-import { selectProduct } from '../redux/rootSlice';
-
+import { clearProduct, clearProductById, selectProduct } from '../redux/rootSlice';
 
 const CartProductPage = () => {
   const dispatch = useAppDispatch();
   const [quanlity, setQuanlity] = useState(1);
   const selectProducts = useAppSelector(selectProduct)
+
+  const handleClearCart = () => {
+    dispatch(clearProduct())
+  }
+
+  const handleClearCartById = (id: string | number) => {
+    dispatch(clearProductById(id))
+  }
+
   return (
     <div className='flex flex-col gap-[80px] items-center'>
       <p className='leading-[45px] font-medium text-[32px] text-left w-full'>CART</p>
@@ -24,10 +30,10 @@ const CartProductPage = () => {
               <p className='w-[85px]'></p>
             </div>
             <div>
-              {selectProducts.map((item) => {
+              {selectProducts?.map((item) => {
                 return (
-                  <div className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
-                    <div className='flex flex-row items-start gap-[16px] w-[560px]'>
+                  <div key={item?.id} className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
+                    <div className='flex flex-row items-center gap-[16px] w-[560px]'>
                       <div className='w-[130px] h-[130px] object-contain overflow-hidden'>
                         <img src={item.productImg[0]} alt="" />
                       </div>
@@ -36,13 +42,13 @@ const CartProductPage = () => {
                     <HandleQuantityProduct quanlity={quanlity} setQuanlity={setQuanlity} />
                     <div className='text-[18px] text-center w-[74px] leading-[74px]'>{item.currentPrice}</div>
                     <div className='text-[18px] text-center w-[74px] leading-[75px]'>{item.currentPrice * item.quanlity}</div>
-                    <a className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]'>Delete</a>
+                    <a className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]' onClick={() => handleClearCartById(item?.id)}>Delete</a>
                   </div>
                 )
               })}
             </div>
           </div>
-          <div className='Btn_secondary w-fit'>Clear Cart</div>
+          <div className='Btn_secondary w-fit' onClick={handleClearCart}>Clear Cart</div>
         </div>
         <div className='flex flex-col gap-[24px] items-center pt-[48px]'>
           <div className='flex flex-col gap-[0px] items-center'>

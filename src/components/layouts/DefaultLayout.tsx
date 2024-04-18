@@ -1,3 +1,4 @@
+import React from 'react'
 import Feature from "../Feature/Feature"
 import Footer from "../Footer/Footer"
 import Header from "../Header/Header"

@@ -1,3 +1,4 @@
+import React from "react";
 type IconPersonal = {
   width?: number;
   height?: number;

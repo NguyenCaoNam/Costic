@@ -1,3 +1,5 @@
+import React from "react";
+
 type IconBestOffer = {
   width?: number;
   height?: number;

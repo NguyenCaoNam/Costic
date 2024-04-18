@@ -1,3 +1,4 @@
+import React from 'react'
 type CommentProps = {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   comment: any;

@@ -1,3 +1,4 @@
+import React from "react"
 import Feedback from "../components/Feedback/feedback"
 
 const AboutPage = () => {
