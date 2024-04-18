@@ -14,9 +14,9 @@ const CardProductLItem = ({ itemCard }: CardProductLItemProps) => {
         to={`product/${itemCard.id}`}
         className="w-[424px] h-[500px] overflow-hidden"
       >
-        <img src={itemCard.productImg[0]} alt="" />
+        <img src={itemCard.productImg[0]} alt="" className="w-[424px] h-[500px] overflow-hidden object-contain " />
       </Link>
-      <div className={styles.InforProduct}>
+      <div className="flex flex-row w-[424px] py-[8px] items-start gap-[8px]">
         <Link
           to={`product/${itemCard.id}`}
           className="text-[16px] font-medium leading-[25px text-left text-[#333] w-[328px]"
