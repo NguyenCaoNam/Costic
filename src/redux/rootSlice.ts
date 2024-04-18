@@ -60,7 +60,7 @@ const rootSlice = createSlice({
       state.product = []
     },
     clearProductById: (state, action) => {
-      const result = state.listFavourite.filter(item => item.id !== action.payload)
+      const result = state.product.filter(item => item.id !== action.payload)
       state.product = result
     },
     setFavourite: (state, action) => {
