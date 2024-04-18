@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import HandleQuantityProduct from '../components/Event/HandleQuantityProduct'
+import React from 'react'
 import { useAppDispatch, useAppSelector } from '../hooks';
-import { clearProduct, clearProductById, selectProduct } from '../redux/rootSlice';
+import { clearProduct, clearProductById, decrementProduct, incrementProduct } from '../redux/rootSlice';
+import IconMinus from '../utils/icon/iconMinus';
+import IconAdd from '../utils/icon/iconAdd';
 
 const CartProductPage = () => {
   const dispatch = useAppDispatch();
-  const [quanlity, setQuanlity] = useState(1);
-  const selectProducts = useAppSelector(selectProduct)
+  const listProduct = useAppSelector(state => state.root.product)
 
   const handleClearCart = () => {
     dispatch(clearProduct())
@@ -14,6 +14,15 @@ const CartProductPage = () => {
 
   const handleClearCartById = (id: string | number) => {
     dispatch(clearProductById(id))
+  }
+
+  const handleMinus = (id: number | string, data: any) => {
+    if (data.quanlity === 1) return;
+    dispatch(decrementProduct(id))
+  }
+
+  const handleAdd = (id: number | string) => {
+    dispatch(incrementProduct(id))
   }
 
   return (
@@ -30,7 +39,7 @@ const CartProductPage = () => {
               <p className='w-[85px]'></p>
             </div>
             <div>
-              {selectProducts?.map((item) => {
+              {listProduct?.map(item => {
                 return (
                   <div key={item?.id} className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
                     <div className='flex flex-row items-center gap-[16px] w-[560px]'>
@@ -39,10 +48,18 @@ const CartProductPage = () => {
                       </div>
                       <div className='text-[20px] font-medium text-left leading-[28px] w-[]'>{item.productName}</div>
                     </div>
-                    <HandleQuantityProduct quanlity={quanlity} setQuanlity={setQuanlity} />
+                    <div className="w-[114px] flex items-center h-7">
+                      <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={() => handleMinus(item?.id, item)}>
+                        <IconMinus />
+                      </div>
+                      <div className="text-base font-medium leading-[22px] w-1/2">{item.quanlity}</div>
+                      <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={() => handleAdd(item?.id)}>
+                        <IconAdd />
+                      </div>
+                    </div>
                     <div className='text-[18px] text-center w-[74px] leading-[74px]'>{item.currentPrice}</div>
                     <div className='text-[18px] text-center w-[74px] leading-[75px]'>{item.currentPrice * item.quanlity}</div>
-                    <a className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]' onClick={() => handleClearCartById(item?.id)}>Delete</a>
+                    <div className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]' onClick={() => handleClearCartById(item?.id)}>Delete</div>
                   </div>
                 )
               })}

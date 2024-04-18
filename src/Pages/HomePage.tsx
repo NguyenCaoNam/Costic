@@ -5,27 +5,38 @@ import CardProductLItem from "../components/CarProductL/CardProductL";
 import { ListCardProduct } from "../utils/data/ListCardProduct";
 import CardProductSItem from "../components/CardProductS/CardProductS";
 import Feedback from "../components/Feedback/feedback";
-import { LisTag } from "../components/Tag/LisTag";
-import Tag from "../components/Tag/Tag";
 import { ListBlog } from "../utils/data/ListBlog";
 import BlogItem from "../components/Blog/BlogItem";
 import { Link } from "react-router-dom";
+import { listCategory } from "../utils/constants";
 
 const HomePage = () => {
-
   const [bestSellerList, setBestSellerList] = useState<IProduct[]>([]);
   const [listProduct, setListProduct] = useState<IProduct[]>([]);
+  const [activeItem, setActiveItem] = useState<number>(0);
+
+  const handleActive = (id: number) => {
+    setActiveItem(id)
+  }
 
   useEffect(() => {
     if (ListCardProduct) {
       const resultSort = ListCardProduct.sort((a, b) => b.counter - a.counter)
       const resultBestSeller = resultSort.slice(0, 4)
       setBestSellerList(resultBestSeller)
-
-      const resultProduct = ListCardProduct.slice(0, 4)
-      setListProduct(resultProduct)
     }
   }, [ListCardProduct])
+
+  useEffect(() => {
+    if (activeItem) {
+      const result = ListCardProduct.filter(item => item.categoryId === activeItem)
+      const resultProduct = result?.slice(0, 4)
+      setListProduct(resultProduct)
+    } else {
+      const resultProduct = ListCardProduct?.slice(0, 4)
+      setListProduct(resultProduct)
+    }
+  }, [activeItem])
 
   return (
     <div>
@@ -43,7 +54,6 @@ const HomePage = () => {
           Features Product
         </div>
         <div className="flex flex-wrap gap-[28px] w-[1328px]">
-          {/* chỗ này phải là camel case itemproduct => itemProduct */}
           {bestSellerList?.map((itemProduct) => (
             <CardProductLItem key={itemProduct?.id} itemCard={itemProduct} />
           ))}
@@ -70,13 +80,14 @@ const HomePage = () => {
             Our Store
           </div>
           <div className="flex flex-row gap-[24px] w-full ">
-            {LisTag.map((Item) => {
-              return <Tag key={Item.id} content={Item.content} />;
-            })}
+            {listCategory && listCategory.map((item) => (
+              <div key={item?.id} className={`Tag cursor-pointer ${activeItem === item.categoryId ? "hover:bg-black bg-black" : ""}`} onClick={() => handleActive(item.categoryId)}>
+                <div className={`${activeItem === item?.categoryId && "text-white"}`}>{item?.title}</div>
+              </div>
+            ))}
           </div>
         </div>
         <div className="flex flex-wrap gap-[24px] w-[1328px]">
-          {/* chỗ này phải là camel case itemproduct => itemProduct */}
           {listProduct?.map((itemProduct) => (
             <CardProductSItem key={itemProduct?.id} itemCard={itemProduct} />
           ))}
