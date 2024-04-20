@@ -15,7 +15,7 @@ const AdsRight = ({ title, description, img }: AdsRight) => {
           <div className='text-[48px] text-black text-left'>{title}</div>
           <div className='text-[18px] text-[#545454] text-left'>{description}</div>
         </div>
-        <Link to={"/dealoftheweek"} className='Btn_primary'>Shop Now</Link>
+        <Link to={"/dealoftheweek"} className='Btn_primary text-center'>Shop Now</Link>
       </div>
     </div>
   )

@@ -18,7 +18,7 @@ const DealOfTheWeek = () => {
             <CardProductSItem key={itemProduct.id} itemCard={itemProduct} />
           ))}
         </div>
-        <div className="Btn_secondary">More</div>
+        <div className="Btn_secondary text-center">More</div>
       </div>
     </div>
   )

@@ -9,10 +9,33 @@ import { useAppDispatch, useAppSelector } from "../hooks";
 import { addProduct, setFavourite } from "../redux/rootSlice";
 import { useEffect, useState } from "react";
 import IconHeart from "../utils/icon/iconHeart";
+import Tabs from "../components/Tabs/Tabs";
+import TabsHeader from "../components/Tabs/TabHeader";
+
+import dataDetail from '../utils/data/dataDetail.json'
+import TabsBody from "../components/Tabs/TabBody";
+import TabItem from "../components/Tabs/TabItem";
+
+const listHeader = [
+  {
+    id: 1,
+    title: "Description"
+  },
+  {
+    id: 2,
+    title: "Review"
+  },
+  {
+    id: 3,
+    title: "Ship & Return"
+  }
+]
 
 const ProductDetail = () => {
   const [quanlity, setQuanlity] = useState(1);
   const [isLike, setIsLike] = useState(false);
+  const [tabIndex, setTabIndex] = useState(1);
+  const [inputValue, setInputValue] = useState('');
 
   const dispatch = useAppDispatch();
   const params = useParams();
@@ -39,13 +62,20 @@ const ProductDetail = () => {
     }
   };
 
+  const handleChangeTabIndex = (id: number) => {
+    setTabIndex(id)
+  }
+
+  const handleChange = (value: string) => {
+    setInputValue(value);
+  }
+
   useEffect(() => {
     if (favouriteList) {
       const result = favouriteList.find(item => item?.id === productDetail?.id)
       result ? setIsLike(true) : setIsLike(false)
     }
   }, [favouriteList])
-
 
   return (
     <div>
@@ -111,8 +141,8 @@ const ProductDetail = () => {
                 <HandleQuantityProduct quanlity={quanlity} setQuanlity={setQuanlity} />
               </div>
               <div className="flex flex-row items-center gap-[32px]">
-                <div className="Btn_primary cursor-pointer">Buy Now</div>
-                <div className="Btn_secondary cursor-pointer" onClick={handleAddProduct}>Add To Cart</div>
+                <div className="Btn_primary cursor-pointer text-center">Buy Now</div>
+                <div className="Btn_secondary cursor-pointer text-center" onClick={handleAddProduct}>Add To Cart</div>
               </div>
               <div className="flex flex-row gap-[8px] items-center">
                 <div onClick={handleLike} className={`h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px] ${isLike ? "bg-black" : "bg-white"}`}>
@@ -166,18 +196,74 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-[40px]">
-        <div className="flex flex-row gap-[opx]">
-          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Description</p>
-          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Review</p>
-          <p className="text-[20px] font-medium text-center leading-[28px] py-[16px] w-full">Ship & Return</p>
-        </div>
-        <div>
-          1
-        </div>
-      </div>
+      <Tabs className="mt-7">
+        <TabsHeader className="flex flex-row justify-between items-center border-b-2 border-[#E9EAE9]">
+          {listHeader.map(item => (
+            <div key={item.id} className={`flex-1 cursor-pointer py-3 px-2 ${item.id === tabIndex ? 'bg-[#E9EAE9] border-b-2 border-black -mb-[2px]' : ''}`} onClick={() => handleChangeTabIndex(item.id)}>
+              <p className="text-base font-medium text-center">{item.title}</p>
+            </div>
+          ))}
+        </TabsHeader>
+        <TabsBody className="mt-4">
+          <TabItem className={`${tabIndex === 1 ? 'block' : 'hidden'}`}>
+            <div>
+              <p className="text-xl font-medium">Description</p>
+              <p>{dataDetail[0].data.description.content}</p>
+            </div>
+            <div className="mt-2">
+              <p className="text-xl font-medium">Ingredients</p>
+              <div>
+                {dataDetail[0].data.description.ingredients.map((item, index) => (
+                  <p key={index}>{item}</p>
+                ))}
+              </div>
+            </div>
+          </TabItem>
+          <TabItem className={`${tabIndex === 2 ? 'block' : 'hidden'}`}>
+            <div className="pb-3 border-b border-[#545454]">
+              {dataDetail[0].data.comment.map((item) => (
+                <div key={item?.userId} className="flex flex-row gap-5 mb-6">
+                  <div className="w-14 h-14 rounded-full overflow-hidden">
+                    <img src={item?.image} alt={`image-${item.userId}`} />
+                  </div>
+                  <div className="flex flex-col flex-1">
+                    <div className="flex flex-row justify-between items-center">
+                      <div>
+                        <p className="text-xl font-medium">{item.name}</p>
+                        <p className="">{item.star}</p>
+                      </div>
+                      <p className="">{item.postedAt}</p>
+                    </div>
+                    <p className="">{item.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="mt-6">
+              <p className="text-xl font-medium">Leave a review</p>
+              <div className="flex flex-row gap-1">
+                <p>star</p>
+                <p>star</p>
+                <p>star</p>
+                <p>star</p>
+                <p>star</p>
+              </div>
+              <textarea
+                value={inputValue}
+                onChange={(e) => handleChange(e.target.value)}
+                placeholder="Type your comment" className="mt-2 resize-none h-28 rounded-md p-2 w-full border !border-[#E9EAE9]" />
+              <div className="text-center mt-2">
+                <button disabled={inputValue ? false : true} className={`${inputValue ? '' : 'bg-[#464646]'} cursor-pointer Btn_primary `}>Send</button>
+              </div>
+            </div>
+          </TabItem>
+          <TabItem className={`${tabIndex === 3 ? 'block' : 'hidden'}`}>
+            <p className="text-xl font-medium">Ship & Return</p>
+            <p>{dataDetail[0].data.shipAndReturn}</p>
+          </TabItem>
+        </TabsBody>
+      </Tabs>
     </div>
-
   );
 };
 

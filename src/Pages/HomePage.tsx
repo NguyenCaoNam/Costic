@@ -58,7 +58,7 @@ const HomePage = () => {
             <CardProductLItem key={itemProduct?.id} itemCard={itemProduct} />
           ))}
         </div>
-        <Link to={"/shop"} className="Btn_secondary">More</Link>
+        <Link to={"/shop"} className="Btn_secondary text-center">More</Link>
       </div>
       <div className="flex flex-col w-full items-center gap-[40px]">
         <div className="text-[24px] w-full font-bold heading-auto py-[12px] border-solid border-b-[1px] border-black text-left">
@@ -92,7 +92,7 @@ const HomePage = () => {
             <CardProductSItem key={itemProduct?.id} itemCard={itemProduct} />
           ))}
         </div>
-        <Link to={"/shop"} className="Btn_secondary">More</Link>
+        <Link to={"/shop"} className="Btn_secondary text-center">More</Link>
       </div>
 
       <div className="flex flex-col w-full items-center gap-[40px]">

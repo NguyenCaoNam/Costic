@@ -13,7 +13,7 @@ const AdsLeft = ({title, description, img}:AdsLeft) => {
           <div className='text-[48px] text-black text-right'>{title}</div>
           <div className='text-[18px] text-[#545454] text-right'>{description}</div>
         </div>
-        <button className='Btn_primary'>Shop Now</button>
+        <button className='Btn_primary text-center'>Shop Now</button>
       </div>
       <img src={img} alt="" className='w-[650px] h-[500px] overflow-hidden bg-auto' />
     </div>
