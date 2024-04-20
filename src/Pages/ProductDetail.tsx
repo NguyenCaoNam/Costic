@@ -111,8 +111,8 @@ const ProductDetail = () => {
                 <HandleQuantityProduct quanlity={quanlity} setQuanlity={setQuanlity} />
               </div>
               <div className="flex flex-row items-center gap-[32px]">
-                <div className="Btn_primary">Buy Now</div>
-                <div className="Btn_secondary" onClick={handleAddProduct}>Add To Cart</div>
+                <div className="Btn_primary cursor-pointer">Buy Now</div>
+                <div className="Btn_secondary cursor-pointer" onClick={handleAddProduct}>Add To Cart</div>
               </div>
               <div className="flex flex-row gap-[8px] items-center">
                 <div onClick={handleLike} className={`h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px] ${isLike ? "bg-black" : "bg-white"}`}>

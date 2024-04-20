@@ -21,12 +21,12 @@ const HandleQuantityProduct = ({
     setQuanlity(quanlity + 1)
   }
   return (
-    <div className="flex flex-row gap-[24px] items-center px-[16px] py-[8px] h-fit rounded-[30px] border-solid border-[#E1E1E1] border-[1px] bg-white">
-      <div onClick={handleMinus}>
+    <div className="w-[114px] flex items-center h-10 px-3 rounded-3xl border border-[#E1E1E1]">
+      <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={handleMinus}>
         <IconMinus />
       </div>
-      <div className="text-[14px] font-medium leading-[22px] text-center w-[25px]">{quanlity}</div>
-      <div onClick={handleAdd}>
+      <div className="text-base font-medium leading-[22px] w-1/2">{quanlity}</div>
+      <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={handleAdd}>
         <IconAdd />
       </div>
     </div>

@@ -1,0 +1,76 @@
+[
+  {
+    "productId": 1,
+    "data": {
+      "description": {
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus, ad incidunt maiores dolorem qui delectus autem culpa dolores ipsam. Nostrum ex at recusandae asperiores eveniet.",
+        "ingredients": [
+          "AQUA/WATER",
+          "GLYCERIN",
+          "ISOHEXADECANE",
+          "DIMETHICONE",
+          "ISOPROPYL ISOSTEARATE",
+          "ALUMINUM STARCH OCTENYLSUCCINATE",
+          "PROPYLENE GLYCOL",
+          "NYLON-12",
+          "OCTYLDODECANOL",
+          "CETYL ALCOHOL",
+          "BEHENYL ALCOHOL",
+          "AMMONIUM",
+          "POLYACRYLOYLDIMETHYL TAURATE"
+        ]
+      },
+      "shipAndReturn": "Return in 7 Days is acceptable",
+      "comment": [
+        {
+          "userId": "user1",
+          "image": "",
+          "name": "Lyva Hana",
+          "star": 4,
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus.",
+          "postedAt": "16 Nov, 2023"
+        },
+        {
+          "userId": "user2",
+          "image": "",
+          "name": "Lyva Hana",
+          "star": 4,
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus.",
+          "postedAt": "16 Nov, 2023"
+        },
+        {
+          "userId": "user3",
+          "image": "",
+          "name": "Lyva Hana",
+          "star": 4,
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus.",
+          "postedAt": "16 Nov, 2023"
+        },
+        {
+          "userId": "user4",
+          "image": "",
+          "name": "Lyva Hana",
+          "star": 4,
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus.",
+          "postedAt": "16 Nov, 2023"
+        },
+        {
+          "userId": "user5",
+          "image": "",
+          "name": "Lyva Hana",
+          "star": 4,
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus.",
+          "postedAt": "16 Nov, 2023"
+        },
+        {
+          "userId": "user6",
+          "image": "",
+          "name": "Lyva Hana",
+          "star": 4,
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ea laudantium blanditiis culpa? Voluptatibus.",
+          "postedAt": "16 Nov, 2023"
+        }
+      ]
+    }
+  }
+]
