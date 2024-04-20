@@ -42,8 +42,8 @@ const productDetail = () => {
               <HandleQuantityProduct />
             </div>
             <div className="flex flex-row items-center gap-[32px]">
-              <div className="Btn_primary">Buy Now</div>
-              <div className="Btn_secondary">Add To Cart</div>
+              <div className="Btn_primary text-center">Buy Now</div>
+              <div className="Btn_secondary text-center">Add To Cart</div>
             </div>
             <div className="flex flex-row gap-[8px] items-center">
               <LikeHandle />

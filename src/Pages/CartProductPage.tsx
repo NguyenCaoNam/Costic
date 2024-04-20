@@ -60,7 +60,7 @@ const CartProductPage = () => {
                       <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={() => handleMinus(item?.id, item)}>
                         <IconMinus />
                       </div>
-                      <div className="text-base font-medium leading-[22px] w-1/2">{item.quanlity}</div>
+                      <div className="text-base font-medium leading-[22px] w-1/2 text-center">{item.quanlity}</div>
                       <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={() => handleAdd(item?.id)}>
                         <IconAdd />
                       </div>

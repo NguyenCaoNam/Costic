@@ -25,7 +25,7 @@ const HandleQuantityProduct = ({
       <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={handleMinus}>
         <IconMinus />
       </div>
-      <div className="text-base font-medium leading-[22px] w-1/2">{quanlity}</div>
+      <div className="text-base font-medium leading-[22px] w-1/2 text-center">{quanlity}</div>
       <div className='w-1/4 h-full cursor-pointer flex flex-1 items-center justify-center' onClick={handleAdd}>
         <IconAdd />
       </div>
