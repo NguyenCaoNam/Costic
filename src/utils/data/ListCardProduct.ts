@@ -9,11 +9,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/clinical-cream/8992304024467_c3.jpg?w=1440&rev=f2494df792c243408d43a1d8124c7c67&hash=1514DE932D5D140B4D6731B96F482F07C96B4948",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/clinical-cream/8992304024467_c5.jpg?w=1440&rev=63718e830e4a4074a42d1d9a427cfe85&hash=788F9CCA4EE7A2E08176E388C4DACA9AB8C1CD27",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 20,
     oldPrice: 35,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 10
+    counter: 10,
   },
   {
     id: 2,
@@ -25,11 +76,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/aura-cream/8992304013126_c2.jpg?w=1440&rev=65da467408ed4e4a889e54458c9aa5dc&hash=4FCBBC806D8809BFAC00E9F6EA55FD2087272F24",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/aura-cream/8992304013126_c3.jpg?w=1440&rev=4784476e3bcb4ba588cf5b40570aa3f7&hash=E658489AEBEB9AF1820E98DEFE92E93878238FAD",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 62,
     oldPrice: 71,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 9
+    counter: 9,
   },
   {
     id: 3,
@@ -41,11 +143,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/aura-cream/8991380221074_c3.jpg?w=1440&rev=ba9b05777bb641bebe8eb8e8b3fd9b02&hash=72EDC2677E655AADCBBD765C09B020A166582261",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/aura-cream/8991380221074_packshot.png?w=360&rev=72edfa2e0fa547c9ad2cde85cb767d25&hash=AE0E91E9EDE55D3829BAFDD577E9BE32A7E26260",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 59,
     oldPrice: 91,
     categoryId: 3,
     category: "Ingredient",
-    counter: 2
+    counter: 2,
   },
   {
     id: 4,
@@ -57,11 +210,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/serum/complimentary/ha-serum-tim/6923700966701_c3.png?w=1440&rev=57b4989a9ff54d9a9bb6f3191dffdb83&hash=451C0B56DD57F144AE2027C8501660AD5F427F0C",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/serum/complimentary/ha-serum-tim/6923700966701_c5.png?w=1440&rev=bfcb84442c384973a8f13469fa490c23&hash=2802810E188492406AC8155400DFE2934FB97455",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 26,
     oldPrice: 41,
     categoryId: 3,
     category: "Ingredient",
-    counter: 6
+    counter: 6,
   },
   {
     id: 5,
@@ -73,11 +277,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/clinical-cream/8992304037788_c4.jpg?w=1440&rev=8ba6061e94ec40c6adfbe869bb4556e4&hash=80524C913456A4BB734DB7405D3395E6164EA51A",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/clinical-cream/8992304037788_c5.jpg?w=1440&rev=a6dff0e09d40498dabe9fed767936ae5&hash=25888CAE0741F490AE496CF0477A6683E06F97D6",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 60,
     oldPrice: 75,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 5
+    counter: 5,
   },
   {
     id: 6,
@@ -89,11 +344,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/rv-day-cream/8992304017827_c2.jpg?w=1440&rev=b5832a99a7e840ecbe0da512cb267702&hash=7205307C9B772932C0F7E52BC0A0806DA0013F4A",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/rv-day-cream/8992304017827_c3.jpg?w=1440&rev=361657f06bed4ff68194296740df9cb1&hash=ECAA8C0D325F82D9AEBCDC79B973E03DB9419190",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 70,
     oldPrice: 80,
     categoryId: 3,
     category: "Ingredient",
-    counter: 3
+    counter: 3,
   },
   {
     id: 7,
@@ -105,11 +411,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/rv-night-cream/8992304017803_c2.jpg?w=1440&rev=350ff20682b645f08a0440638708a906&hash=C27D892BBCFEF31683063E4669BD101B1EA94B80",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/cream/complimentary/rv-night-cream/8992304017803_c4.jpg?w=1440&rev=dfc02cb5631d4d288a1decedf690c52f&hash=56499385C680A8290A7D710E26223E150EE00997",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 25,
     oldPrice: 31,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 1
+    counter: 1,
   },
   {
     id: 8,
@@ -121,11 +478,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/hair/haircare/complimentary_fall-resist-3x/mask/8992304020834_c2.jpg?w=1440&rev=3bc4a332a73540439247d50bd819d660&hash=FAE0A38B1C18E5050B0820AD36886617BF23AA8C",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/hair/hair-product-banner/fall-resist.jpg?rev=db006fe7e1b745a8b8019910b11989c4&cx=0&cy=0&cw=1440&ch=1440&hash=1FD3F5B4AB9DECEE65E27D16D2211CB69817FA8C",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 46,
     oldPrice: 52,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 9,
@@ -137,11 +545,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/foam-toner/toner-foam-aura/complimentary/8991380233268_c3.jpg?w=1440&rev=e86a6ee1d79b4c0cb090b2875aa62987&hash=86AD5C52C84CC1BED70C5C41025C857EC484E544",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/skin-care/skincare-banner/white-perfect.jpg?rev=a6302d00e3da4334a079f5fa1bcef3ea&cx=0&cy=0&cw=1440&ch=1440&hash=B4937AD3D99469538B9F6BACB8C38EFDFA63A846",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 70,
     oldPrice: 82,
     categoryId: 3,
     category: "Ingredient",
-    counter: 12
+    counter: 12,
   },
   {
     id: 10,
@@ -153,11 +612,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/ha-micellar/6923700987782_c1.jpg?w=1440&rev=1f303b97ed874f50ad5c8dc8de4607bd&hash=2B034DEE400C49CAA8459E1B1A41912D58B74AB8",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/ha-micellar/6923700987782_c1.jpg?w=1440&rev=1f303b97ed874f50ad5c8dc8de4607bd&hash=2B034DEE400C49CAA8459E1B1A41912D58B74AB8",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 59,
     oldPrice: 65,
     categoryId: 3,
     category: "Ingredient",
-    counter: 12
+    counter: 12,
   },
   {
     id: 11,
@@ -169,11 +679,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/crystal-micellar/6923700981476_c5.jpg?w=1440&rev=6de2319642af4fcb86189f48504b0e90&hash=D9BDD02F1C1D08ABB0595EAD434C8591DA914F42",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/complimentary/400ml/6928820030240_c2.jpg?w=1440&rev=5811920d98df4e76a48d3b71ac324472&hash=9CDF7E613046E0F4D5EB410D015F4546F20074C0",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 32,
     oldPrice: 45,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 12,
@@ -185,11 +746,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/complimentary/400ml/6928820030226_c3.jpg?w=1440&rev=815fbcbcd974402cabc561a924e14986&hash=B4FCDF5FD61FCA956717FFCD7F7B16B823F338A8",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/complimentary/400ml/6928820030226_c5.jpg?w=1440&rev=64c990901b1a44d69f16e1463a87ef5f&hash=4C7785002F8FBE04011C897853C19D09568E7765",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 59,
     oldPrice: 65,
     categoryId: 3,
     category: "Ingredient",
-    counter: 12
+    counter: 12,
   },
   {
     id: 13,
@@ -201,11 +813,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/complimentary/400ml/6902395498919_c3.jpg?w=1440&rev=9c9d3746061a4a9db15f25a7c09ecf5e&hash=D38604D76622E23437F24D4137A83A97E8236E2B",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/micellar-water/complimentary/400ml/6902395498919_c4.jpg?w=1440&rev=53ae4523f51d4e109edf5b382de53882&hash=F14B82FD17376B1C277438C18E9B55F8E5C642F2",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 46,
     oldPrice: 66,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 14,
@@ -217,11 +880,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/uv/complimentary/uv-defender/8994993014743_c2.jpg?w=1440&rev=e1354420cdd441eba8cd6d82412d0bac&hash=68D1AEF5E19208F2E9C0C2F8546A60AE297DE2FF",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/uv/complimentary/uv-defender/8994993014743_c3.jpg?w=1440&rev=c38326f2c8b44f66bedd425a4873b64a&hash=512CD5207F6E4DC9E1B002AF5A12CE3C28915BFB",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 75,
     oldPrice: 85,
     categoryId: 3,
     category: "Ingredient",
-    counter: 12
+    counter: 12,
   },
   {
     id: 15,
@@ -233,11 +947,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/uv/complimentary/uv-defender/8994993014705_c2.jpg?w=1440&rev=c015e52a8e4b4b8b916af35a7eaad935&hash=15286DC105A5D994CDDE30B9130803BF3ACDC2CB",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/uv/complimentary/uv-defender/8994993014705_c3.jpg?w=1440&rev=31fc1c26194e42b6a0718e0d3e175cea&hash=D1C530EB3093691C509B0A7BEC4B1F1018C83D14",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 17,
     oldPrice: 21,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 16,
@@ -249,11 +1014,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/uv/complimentary/uv-defender/8994993014668_c2.jpg?w=1440&rev=32f944e784a84ed280e0028d3ced776f&hash=FA98B9E2F001D26590779466A2D89215E192A8BA",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/uv/complimentary/uv-defender/8994993014668_c3.jpg?w=1440&rev=4631f6081b1b40f7928ef4d1508d8924&hash=88E696F5271822E15F84FEB2A5FA28ABC39382C0",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 19,
     oldPrice: 35,
     categoryId: 3,
     category: "Ingredient",
-    counter: 12
+    counter: 12,
   },
   {
     id: 17,
@@ -265,11 +1081,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skin-care/face-care/glycolic-bright/glycolic-acid-100ml/2.jpg?w=1440&rev=9587f613908e498fb1fc5d9d46bc112b&hash=1BE9D4AA8D8F8F79D8D014148CDE46046F4D6ABA",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skin-care/face-care/glycolic-bright/glycolic-acid-100ml/3.jpg?w=1440&rev=055f8a1929f24ff29aabf6b55e621347&hash=433ECD05B4DF871D54E35F5A4BB753B0B54305C2",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 52,
     oldPrice: 60,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 12
+    counter: 12,
   },
   {
     id: 18,
@@ -281,11 +1148,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/serum/complimentary/ha-serum-tim/6923700966701_c3.png?w=1440&rev=57b4989a9ff54d9a9bb6f3191dffdb83&hash=451C0B56DD57F144AE2027C8501660AD5F427F0C",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skincare/serum/complimentary/ha-serum-tim/6923700966701_c4.png?w=1440&rev=ae2e3a8bf30d45a0b541ea4a1cd02ab6&hash=90A3EDC54BD922FA8E26B2043748F82E695416C8",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 26,
     oldPrice: 45,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 19,
@@ -297,11 +1215,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skin-care/face-care/glycolic-bright/serum/30ml/8994993016587_c3.jpg?w=1440&rev=6447b844ac5a418f997ba0a1f96d1301&hash=CF0EB448C24FDA9FB35A1881F4BA9A1A345F8CD8",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skin-care/face-care/glycolic-bright/serum/30ml/8994993016587_c4.jpg?w=1440&rev=74c3d381e8224e8283990f0cd830b596&hash=28FD9519E8162C8696C746B4152F78B393EED980",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 18,
     oldPrice: 30,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 12
+    counter: 12,
   },
   {
     id: 20,
@@ -313,11 +1282,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skin-care/face-care/glycolic-bright/cream-day-15ml/8994993016518_c3.jpg?w=1440&rev=fb4cc74d21e64e82a608b7bc67c6d3a5&hash=C0DD469EFA83665D4CC29A8D8131CD6558592D40",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/skin-care/face-care/glycolic-bright/cream-day-15ml/8994993016518_c4.jpg?w=1440&rev=3fa8af0e86e6447bb9c9ff942cdaff0d&hash=2A1CE653F5F416CCF7B0E2D2B70A0BF6CAFC813D",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 65,
     oldPrice: 74,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 21,
@@ -329,11 +1349,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/skin-care/face-care/glycolic-bright/glycolic-mask.jpg?w=360&rev=470e1a9a5b5949fbbad9707ce4c64e1b&hash=1C804E0CDEDF0ECCD923C8CB1FD94DCFD3AFFE00",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/skin-care/face-care/glycolic-bright/glycolic-mask.jpg?w=360&rev=470e1a9a5b5949fbbad9707ce4c64e1b&hash=1C804E0CDEDF0ECCD923C8CB1FD94DCFD3AFFE00",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 69,
     oldPrice: 78,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 12
+    counter: 12,
   },
   {
     id: 22,
@@ -344,13 +1415,63 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/skin-care/face-care/glycolic-toner128.jpg?w=360&rev=bfb2cd6b4057490abcc64f21bbb88903&hash=6F87EEA7A565A5447B87DF81A49BC5D549ECD1ED",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/skin-care/face-care/glycolic-toner128.jpg?w=360&rev=bfb2cd6b4057490abcc64f21bbb88903&hash=6F87EEA7A565A5447B87DF81A49BC5D549ECD1ED",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/skin-care/face-care/glycolic-toner128.jpg?w=360&rev=bfb2cd6b4057490abcc64f21bbb88903&hash=6F87EEA7A565A5447B87DF81A49BC5D549ECD1ED",
-      
+    ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
     ],
     currentPrice: 80,
     oldPrice: 90,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 12
+    counter: 12,
   },
   {
     id: 23,
@@ -362,11 +1483,62 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/makeup/lip-makeup/rouge-signature/parisian-sunset/product-details-applies-to-all/oap-makeup-lips-rouge-signature-sunset_arm-application-medium-skin.jpg?w=1440&rev=3153b71766864c0ea842562dff05df5a&hash=50C72E7F0D1D3D09A8A852B725D41CE24262EC50",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/products/makeup/lip-makeup/rouge-signature/parisian-sunset/hero/luma-rouge-signature.jpg?rev=fb331fdfd0a24e51989946bbfd1d5f4f&cx=0.37&cy=0.42&cw=1440&ch=1440&hash=C9E240543C488A0C29E17EA726DF0D75C3C53708",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 59,
     oldPrice: 70,
     categoryId: 2,
     category: "Skin Concers",
-    counter: 12
+    counter: 12,
   },
   {
     id: 24,
@@ -378,11 +1550,61 @@ export const ListCardProduct = [
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/makeup/makeup/eyes/xpert-brow/complimentary/6902395666554_c2.jpg?w=1440&rev=2386690cf724440a8b8e703a7722da5b&hash=D8E4CF80E26E570588466EC075EFBBBF657625B7",
       "https://www.lorealparis.com.vn/-/media/project/loreal/brand-sites/oap/apac/vn/local-products/makeup/makeup/eyes/xpert-brow/complimentary/6902395666554_c3.jpg?w=1440&rev=4a3e4d5381f64331bd3fe05a929ad6a0&hash=CD7DD4C0256A65519D81FA4BD9265B534CDEA2A5",
     ],
+    description: "Introducing our latest skincare innovation: Radiant Glow Serum. Crafted with precision and care, this luxurious formula revitalizes your skin, unveiling a luminous complexion that radiates confidence. Infused with potent antioxidants and nourishing botanical extracts, our serum deeply hydrates while combating signs of aging and environmental stressors. Experience the transformative power of nature as each drop replenishes and restores, leaving your skin velvety smooth and irresistibly radiant. Elevate your skincare routine with Radiant Glow Serum and embrace a new standard of beauty.",
+    comment: [
+      {
+        id: 1,
+        username: "Le Cuong",
+        date: "12/03/2024",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+      },
+      {
+        id: 2,
+        username: "Quang Hung",
+        date: "12/03/2024",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
+      },
+      {
+        id: 3,
+        username: "Hoang Hai",
+        date: "12/03/2024",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
+      },
+      {
+        id: 4,
+        username: "Van Nga",
+        date: "12/03/2024",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
+      },
+      {
+        id: 5,
+        username: "Hoang Huong",
+        date: "12/03/2024",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
+      },
+      {
+        id: 6,
+        username: "Tran Hoa",
+        date: "12/03/2024",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
+      },
+    ],
     currentPrice: 91,
     oldPrice: 99,
     categoryId: 1,
     category: "Skin Care Product",
-    counter: 12
+    counter: 12,
   },
-
 ];
