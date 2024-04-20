@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import CardProductSItem from '../components/CardProductS/CardProductS'
 import IconArrowdown from '../utils/icon/Arrow/iconArrowdown'

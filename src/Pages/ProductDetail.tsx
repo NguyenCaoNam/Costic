@@ -51,8 +51,8 @@ const ProductDetail = () => {
     <div>
       <div className="flex flex-row gap-[64px] items-start">
         <div className="flex flex-col gap-[16px] items-start">
-          <div className="w-[632px] h-[632px] object-cover">
-            <img src={productDetail?.productImg[0]} alt="" />
+          <div className="w-[632px] h-[632px]">
+            <img src={productDetail?.productImg[0]} alt="" className="w-[632px] h-[632px] object-contain overflow-hidden" />
           </div>
           <div className="flex flex-row gap-[16px] items-center">
             <div className="h-[146px] w-[146px] object-contain">

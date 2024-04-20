@@ -39,7 +39,7 @@ const HomePage = () => {
   }, [activeItem])
 
   return (
-    <div>
+    <div  className="flex flex-col gap-[64px] items-center">
       <AdsRight
         title={"2023 HALF-YEAR RESULT"}
         description={
