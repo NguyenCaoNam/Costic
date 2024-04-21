@@ -15,11 +15,14 @@ import WishlistPage from "./Pages/WishlistPage";
 import DefaultLayout from "./components/layouts/DefaultLayout";
 import BlogDetail from "./Pages/BlogDetail";
 import DealOfTheWeek from "./Pages/DealOfTheWeek";
+import { ToastContainer } from "react-toastify";
+import LoginForm from "./components/Form/FormLogin";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ToastContainer />
         <Routes>
           <Route path="/" element={<DefaultLayout />}>
             <Route path="/" element={<HomePage />} />
@@ -39,6 +42,7 @@ function App() {
             </Route>
             <Route path="*" element={<NoPage />} />
           </Route>
+          <Route path="login" element={<LoginForm />} />
         </Routes>
       </BrowserRouter>
     </>

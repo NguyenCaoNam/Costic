@@ -1,11 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { addLoading, removeLoading } from './actions';
+import { toastSuccess } from '../utils/plugins/Toast';
 
 const initialState: IRootState = {
   loading: 0,
   number: 0,
   product: [],
-  listFavourite: []
+  listFavourite: [],
+  credential: {
+    username: "nguyencaonam",
+    password: "nguyencaonam"
+  }
 };
 
 const rootSlice = createSlice({
@@ -37,6 +42,7 @@ const rootSlice = createSlice({
       } else {
         state.product = [...state.product, action.payload.data];
       }
+      toastSuccess()
     },
     incrementProduct: (state, action) => {
       const result = state.product?.map(item => {
@@ -80,6 +86,12 @@ const rootSlice = createSlice({
         const result = state.listFavourite.filter(item => item.id !== action.payload)
         state.listFavourite = result
       }
+    },
+    setCredential: (state) => {
+      state.credential = {
+        username: "nguyencaonam",
+        password: "nguyencaonam"
+      }
     }
   },
   extraReducers: builder => {
@@ -106,5 +118,6 @@ export const {
   clearProduct,
   clearProductById,
   decrementProduct,
-  incrementProduct
+  incrementProduct,
+  setCredential
 } = rootSlice.actions

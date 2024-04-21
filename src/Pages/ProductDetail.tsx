@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import { ListCardProduct } from "../utils/data/ListCardProduct";
 import HandleQuantityProduct from "../components/Event/HandleQuantityProduct";
 import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
@@ -11,10 +11,9 @@ import { useEffect, useState } from "react";
 import IconHeart from "../utils/icon/iconHeart";
 import Tabs from "../components/Tabs/Tabs";
 import TabsHeader from "../components/Tabs/TabHeader";
-
-import dataDetail from '../utils/data/dataDetail.json'
 import TabsBody from "../components/Tabs/TabBody";
 import TabItem from "../components/Tabs/TabItem";
+import Rating from "../components/Rating/Rating";
 
 const listHeader = [
   {
@@ -36,6 +35,7 @@ const ProductDetail = () => {
   const [isLike, setIsLike] = useState(false);
   const [tabIndex, setTabIndex] = useState(1);
   const [inputValue, setInputValue] = useState('');
+  const location = useLocation()
 
   const dispatch = useAppDispatch();
   const params = useParams();
@@ -208,33 +208,33 @@ const ProductDetail = () => {
           <TabItem className={`${tabIndex === 1 ? 'block' : 'hidden'}`}>
             <div>
               <p className="text-xl font-medium">Description</p>
-              <p>{dataDetail[0].data.description.content}</p>
+              <p>{productDetail?.description}</p>
             </div>
-            <div className="mt-2">
+            {/* <div className="mt-2">
               <p className="text-xl font-medium">Ingredients</p>
               <div>
                 {dataDetail[0].data.description.ingredients.map((item, index) => (
                   <p key={index}>{item}</p>
                 ))}
               </div>
-            </div>
+            </div> */}
           </TabItem>
           <TabItem className={`${tabIndex === 2 ? 'block' : 'hidden'}`}>
             <div className="pb-3 border-b border-[#545454]">
-              {dataDetail[0].data.comment.map((item) => (
+              {productDetail?.comment.map((item) => (
                 <div key={item?.userId} className="flex flex-row gap-5 mb-6">
                   <div className="w-14 h-14 rounded-full overflow-hidden">
-                    <img src={item?.image} alt={`image-${item.userId}`} />
+                    <img src={item?.img} alt={`image-${item?.id}`} />
                   </div>
                   <div className="flex flex-col flex-1">
                     <div className="flex flex-row justify-between items-center">
                       <div>
-                        <p className="text-xl font-medium">{item.name}</p>
-                        <p className="">{item.star}</p>
+                        <p className="text-xl font-medium">{item?.username}</p>
+                        <Rating rating={item?.star} />
                       </div>
-                      <p className="">{item.postedAt}</p>
+                      <p className="">{item?.postedAt}</p>
                     </div>
-                    <p className="">{item.content}</p>
+                    <p className="">{item?.content}</p>
                   </div>
                 </div>
               ))}
@@ -242,24 +242,24 @@ const ProductDetail = () => {
             <div className="mt-6">
               <p className="text-xl font-medium">Leave a review</p>
               <div className="flex flex-row gap-1">
-                <p>star</p>
-                <p>star</p>
-                <p>star</p>
-                <p>star</p>
-                <p>star</p>
+                <Rating rating={5} />
               </div>
               <textarea
                 value={inputValue}
                 onChange={(e) => handleChange(e.target.value)}
                 placeholder="Type your comment" className="mt-2 resize-none h-28 rounded-md p-2 w-full border !border-[#E9EAE9]" />
               <div className="text-center mt-2">
-                <button disabled={inputValue ? false : true} className={`${inputValue ? '' : 'bg-[#464646]'} cursor-pointer Btn_primary `}>Send</button>
+                <Link to={"/login"} state={{ prevUrl: location.pathname }}>
+                  <button disabled={inputValue ? false : true} className={`${inputValue ? '' : 'bg-[#464646]'} cursor-pointer Btn_primary `}>
+                    Send
+                  </button>
+                </Link>
               </div>
             </div>
           </TabItem>
           <TabItem className={`${tabIndex === 3 ? 'block' : 'hidden'}`}>
             <p className="text-xl font-medium">Ship & Return</p>
-            <p>{dataDetail[0].data.shipAndReturn}</p>
+            <p>{productDetail?.shipAndReturn}</p>
           </TabItem>
         </TabsBody>
       </Tabs>
