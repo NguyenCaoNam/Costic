@@ -3,4 +3,5 @@ interface IRootState {
     number: number;
     product: any[];
     listFavourite: any[];
+    credential: { username: string, password: string }
 }

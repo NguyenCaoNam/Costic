@@ -13,8 +13,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -22,44 +24,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 20,
     oldPrice: 35,
     categoryId: 1,
@@ -80,8 +93,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -89,44 +104,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 62,
     oldPrice: 71,
     categoryId: 1,
@@ -147,8 +173,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -156,44 +184,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 59,
     oldPrice: 91,
     categoryId: 3,
@@ -214,8 +253,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -223,44 +264,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 26,
     oldPrice: 41,
     categoryId: 3,
@@ -281,8 +333,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -290,44 +344,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 60,
     oldPrice: 75,
     categoryId: 2,
@@ -348,8 +413,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -357,44 +424,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 70,
     oldPrice: 80,
     categoryId: 3,
@@ -415,8 +493,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -424,44 +504,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 25,
     oldPrice: 31,
     categoryId: 1,
@@ -482,8 +573,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -491,44 +584,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 46,
     oldPrice: 52,
     categoryId: 2,
@@ -549,8 +653,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -558,44 +664,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 70,
     oldPrice: 82,
     categoryId: 3,
@@ -616,8 +733,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -625,44 +744,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 59,
     oldPrice: 65,
     categoryId: 3,
@@ -683,8 +813,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -692,44 +824,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 32,
     oldPrice: 45,
     categoryId: 2,
@@ -750,8 +893,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -759,44 +904,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 59,
     oldPrice: 65,
     categoryId: 3,
@@ -817,8 +973,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -826,44 +984,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 46,
     oldPrice: 66,
     categoryId: 2,
@@ -884,8 +1053,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -893,44 +1064,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 75,
     oldPrice: 85,
     categoryId: 3,
@@ -951,8 +1133,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -960,44 +1144,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 17,
     oldPrice: 21,
     categoryId: 2,
@@ -1018,8 +1213,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1027,44 +1224,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 19,
     oldPrice: 35,
     categoryId: 3,
@@ -1085,8 +1293,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1094,44 +1304,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 52,
     oldPrice: 60,
     categoryId: 1,
@@ -1152,8 +1373,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1161,44 +1384,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 26,
     oldPrice: 45,
     categoryId: 2,
@@ -1219,8 +1453,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1228,44 +1464,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 18,
     oldPrice: 30,
     categoryId: 1,
@@ -1286,8 +1533,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1295,44 +1544,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 65,
     oldPrice: 74,
     categoryId: 2,
@@ -1353,8 +1613,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1362,44 +1624,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 69,
     oldPrice: 78,
     categoryId: 1,
@@ -1420,8 +1693,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1429,44 +1704,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 80,
     oldPrice: 90,
     categoryId: 1,
@@ -1487,8 +1773,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1496,44 +1784,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 59,
     oldPrice: 70,
     categoryId: 2,
@@ -1554,8 +1853,10 @@ export const ListCardProduct = [
     comment: [
       {
         id: 1,
+        userId: "lecuong-01",
         username: "Le Cuong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
         img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
@@ -1563,44 +1864,55 @@ export const ListCardProduct = [
       {
         id: 2,
         username: "Quang Hung",
-        date: "12/03/2024",
+        userId: "quanghung-01",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
         img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
+        userId: "hoanghai-01",
         username: "Hoang Hai",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
+        userId: "vannga-01",
         username: "Van Nga",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 3,
         content:
           "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
         img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
+        userId: "hoanghuong-01",
         username: "Hoang Huong",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 4,
         content:
           "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
         img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
+        userId: "tranhoa-01",
         username: "Tran Hoa",
-        date: "12/03/2024",
+        postedAt: "12/03/2024",
+        star: 5,
         content:
           "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
+    shipAndReturn: "Return in 7 Days is acceptable",
     currentPrice: 91,
     oldPrice: 99,
     categoryId: 1,

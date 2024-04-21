@@ -67,7 +67,7 @@ const CartProductPage = () => {
                     </div>
                     <div className='text-[18px] text-center w-[74px] leading-[74px]'>{item.currentPrice}</div>
                     <div className='text-[18px] text-center w-[74px] leading-[75px]'>{item.currentPrice * item.quanlity}</div>
-                    <div className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E]' onClick={() => handleClearCartById(item?.id)}>Delete</div>
+                    <div className='text-[18px] text-center w-[74px] leading-[90px] text-[#6E706E] cursor-pointer' onClick={() => handleClearCartById(item?.id)}>Delete</div>
                   </div>
                 )
               })}
