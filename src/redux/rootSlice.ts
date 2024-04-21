@@ -10,7 +10,9 @@ const initialState: IRootState = {
   credential: {
     username: "nguyencaonam",
     password: "nguyencaonam"
-  }
+  },
+  isLogin: false,
+  dataProduct: [],
 };
 
 const rootSlice = createSlice({
@@ -87,10 +89,22 @@ const rootSlice = createSlice({
         state.listFavourite = result
       }
     },
-    setCredential: (state) => {
-      state.credential = {
-        username: "nguyencaonam",
-        password: "nguyencaonam"
+    setIsLogin: (state, action) => {
+      state.isLogin = action.payload
+    },
+    setListProduct: (state, action) => {
+      state.dataProduct = action.payload
+    },
+    setComment: (state, action) => {
+      const productFind = state.dataProduct.find((item: any) => item.id === action.payload.id)
+      if (productFind) {
+        const result = state.dataProduct.map((item: any) => {
+          if (item?.id === productFind?.id) {
+            item.comment = [...item.comment, action.payload.data]
+          }
+          return item
+        })
+        state.dataProduct = result
       }
     }
   },
@@ -119,5 +133,7 @@ export const {
   clearProductById,
   decrementProduct,
   incrementProduct,
-  setCredential
+  setIsLogin,
+  setListProduct,
+  setComment
 } = rootSlice.actions

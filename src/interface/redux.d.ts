@@ -3,5 +3,7 @@ interface IRootState {
     number: number;
     product: any[];
     listFavourite: any[];
-    credential: { username: string, password: string }
+    credential: { username: string, password: string };
+    isLogin: boolean;
+    dataProduct: any;
 }
