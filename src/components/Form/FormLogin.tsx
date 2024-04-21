@@ -2,11 +2,12 @@ import React, { useState } from 'react'
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
-import { useAppSelector } from '../../hooks';
+import { useAppDispatch, useAppSelector } from '../../hooks';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
 import { toastLoginSuccess } from '../../utils/plugins/Toast';
 import { useLocation, useNavigate } from 'react-router-dom'
+import { setIsLogin } from '../../redux/rootSlice';
 
 export default function LoginForm() {
   const [loginState, setLoginState] = useState("")
@@ -14,7 +15,8 @@ export default function LoginForm() {
 
   const credentials = useAppSelector(state => state.root.credential)
   const location = useLocation();
-  const navigation = useNavigate()
+  const navigation = useNavigate();
+  const dispatch = useAppDispatch();
 
   const schema = yup.object().shape({
     username: yup.string().required("Please enter username"),
@@ -37,8 +39,9 @@ export default function LoginForm() {
         setLoginState('');
         reset();
         toastLoginSuccess();
+        dispatch(setIsLogin(true));
         setTimeout(() => {
-          navigation(location.state.prevUrl ? location.state.prevUrl : '/')
+          navigation(location.state.prevUrl ? location.state.prevUrl : '/');
         }, 2500);
       }, 1500);
     }

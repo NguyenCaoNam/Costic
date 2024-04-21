@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ToastContainer />
+        <ToastContainer className={"mt-10"} />
         <Routes>
           <Route path="/" element={<DefaultLayout />}>
             <Route path="/" element={<HomePage />} />

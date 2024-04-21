@@ -24,30 +24,3 @@ const CardProductSItem = ({ itemCard }: CardProductSItemProps) => {
 }
 
 export default CardProductSItem
-
-
-// const CardProductS = () => {
-//   return (
-//     <div className='px-[56px]'>
-//     <div>
-//       <div className={styles.Title}>Feature Product</div>
-//       <div className={styles.WrapProduct}>
-//         {ListCardProductS.map((Item) => {
-//           return (
-//             <CardProductSItem
-//               key={Item.id}
-//               ProductImg={Item.ProductImg}
-//               ProductName={Item.ProductName}
-//               CurrentPrice={Item.CurrentPrice}
-//               OldPrice={Item.OldPrice}
-//             />
-//           )
-//         })}
-//       </div>
-
-//     </div>
-//     </div>
-//   )
-// }
-
-// export default CardProductS

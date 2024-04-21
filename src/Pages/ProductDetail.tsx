@@ -1,12 +1,11 @@
 import React from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
-import { ListCardProduct } from "../utils/data/ListCardProduct";
 import HandleQuantityProduct from "../components/Event/HandleQuantityProduct";
 import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
 import IconFreeship from "../utils/icon/FeartureSupport/iconFreeship";
 import IconReturn from "../utils/icon/iconReturn";
 import { useAppDispatch, useAppSelector } from "../hooks";
-import { addProduct, setFavourite } from "../redux/rootSlice";
+import { addProduct, setComment, setFavourite } from "../redux/rootSlice";
 import { useEffect, useState } from "react";
 import IconHeart from "../utils/icon/iconHeart";
 import Tabs from "../components/Tabs/Tabs";
@@ -35,6 +34,7 @@ const ProductDetail = () => {
   const [isLike, setIsLike] = useState(false);
   const [tabIndex, setTabIndex] = useState(1);
   const [inputValue, setInputValue] = useState('');
+  const [data, setData] = useState<any>();
   const location = useLocation()
 
   const dispatch = useAppDispatch();
@@ -42,23 +42,24 @@ const ProductDetail = () => {
   const { id } = params;
 
   //Find product theo id;
-  const productDetail = ListCardProduct.find((itemCard) => itemCard.id === Number(id));
   const favouriteList = useAppSelector(state => state.root.listFavourite)
+  const isLogin = useAppSelector(state => state.root.isLogin)
+  const dataProduct = useAppSelector(state => state.root.dataProduct)
 
   const handleAddProduct = () => {
-    const data = {
-      ...productDetail,
+    const datas = {
+      ...data,
       quanlity: quanlity,
     }
-    dispatch(addProduct({ id: productDetail?.id, data }))
+    dispatch(addProduct({ id: data?.id, data: datas }))
   }
 
   const handleLike = () => {
     setIsLike(!isLike);
     if (!isLike) {
-      dispatch(setFavourite({ productDetail, isLike: true }))
+      dispatch(setFavourite({ data, isLike: true }))
     } else {
-      dispatch(setFavourite({ productDetail, isLike: false }))
+      dispatch(setFavourite({ data, isLike: false }))
     }
   };
 
@@ -70,45 +71,66 @@ const ProductDetail = () => {
     setInputValue(value);
   }
 
+  const handleSendComment = () => {
+    const comment = {
+      id: data?.comment?.length + 1,
+      userId: `nguyencaonam-${data?.comment?.length + 1}`,
+      username: "nguyencaonam",
+      postedAt: "12/03/2024",
+      star: 4,
+      content: inputValue,
+      img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
+    }
+    dispatch(setComment({ id: data?.id, data: comment }));
+    setInputValue('');
+  }
+
   useEffect(() => {
     if (favouriteList) {
-      const result = favouriteList.find(item => item?.id === productDetail?.id)
+      const result = favouriteList.find(item => item?.id === data?.id)
       result ? setIsLike(true) : setIsLike(false)
     }
   }, [favouriteList])
+
+  useEffect(() => {
+    if (dataProduct) {
+      const productDetail = dataProduct.find((itemCard: any) => itemCard.id === Number(id));
+      setData(productDetail)
+    }
+  }, [dataProduct])
 
   return (
     <div>
       <div className="flex flex-row gap-[64px] items-start">
         <div className="flex flex-col gap-[16px] items-start">
           <div className="w-[632px] h-[632px]">
-            <img src={productDetail?.productImg[0]} alt="" className="w-[632px] h-[632px] object-contain overflow-hidden" />
+            <img src={data?.productImg[0]} alt="" className="w-[632px] h-[632px] object-contain overflow-hidden" />
           </div>
           <div className="flex flex-row gap-[16px] items-center">
             <div className="h-[146px] w-[146px] object-contain">
               <img
-                src={productDetail?.productImg[1]}
+                src={data?.productImg[1]}
                 alt=""
                 className="h-full w-auto object-contain overflow-hidden"
               />
             </div>
             <div className="h-[146px] w-[146px] object-contain">
               <img
-                src={productDetail?.productImg[2]}
+                src={data?.productImg[2]}
                 alt=""
                 className="h-full w-auto object-contain overflow-hidden"
               />
             </div>
             <div className="h-[146px] w-[146px] object-contain">
               <img
-                src={productDetail?.productImg[3]}
+                src={data?.productImg[3]}
                 alt=""
                 className="h-full w-auto object-contain overflow-hidden"
               />
             </div>
             <div className="h-[146px] w-[146px] object-contain">
               <img
-                src={productDetail?.productImg[4]}
+                src={data?.productImg[4]}
                 alt=""
                 className="h-full w-auto object-contain overflow-hidden"
               />
@@ -119,7 +141,7 @@ const ProductDetail = () => {
           <div className="flex flex-col gap-[40px] items-start">
             <div className="flex flex-col gap-[16px] items-start">
               <div className="text-black text-[24px] font-[700] w-[632px] text-left">
-                {productDetail?.productName}
+                {data?.productName}
               </div>
               <div className="text-[#545454] text-[18px] font-[500] w-[500px] text-left">
                 Only 55 Item Left!
@@ -128,10 +150,10 @@ const ProductDetail = () => {
             <div className="flex flex-col gap-[24px] items-start border-[#E9EAE9] border-b border-solid pb-[24px]">
               <div className="flex flex-row gap-[16px] items-center">
                 <div className="text-[30px] font-[500] text-[#000000] text-left w-full">
-                  {productDetail?.currentPrice}$
+                  {data?.currentPrice}$
                 </div>
                 <div className="text-[20px] font-[500] text-[#545454] text-left w-full line-through">
-                  {productDetail?.oldPrice}$
+                  {data?.oldPrice}$
                 </div>
               </div>
               <div className="flex flex-row gap-[32px] items-center">
@@ -208,7 +230,7 @@ const ProductDetail = () => {
           <TabItem className={`${tabIndex === 1 ? 'block' : 'hidden'}`}>
             <div>
               <p className="text-xl font-medium">Description</p>
-              <p>{productDetail?.description}</p>
+              <p>{data?.description}</p>
             </div>
             {/* <div className="mt-2">
               <p className="text-xl font-medium">Ingredients</p>
@@ -221,7 +243,7 @@ const ProductDetail = () => {
           </TabItem>
           <TabItem className={`${tabIndex === 2 ? 'block' : 'hidden'}`}>
             <div className="pb-3 border-b border-[#545454]">
-              {productDetail?.comment.map((item) => (
+              {data?.comment.map((item: any) => (
                 <div key={item?.userId} className="flex flex-row gap-5 mb-6">
                   <div className="w-14 h-14 rounded-full overflow-hidden">
                     <img src={item?.img} alt={`image-${item?.id}`} />
@@ -249,17 +271,21 @@ const ProductDetail = () => {
                 onChange={(e) => handleChange(e.target.value)}
                 placeholder="Type your comment" className="mt-2 resize-none h-28 rounded-md p-2 w-full border !border-[#E9EAE9]" />
               <div className="text-center mt-2">
-                <Link to={"/login"} state={{ prevUrl: location.pathname }}>
-                  <button disabled={inputValue ? false : true} className={`${inputValue ? '' : 'bg-[#464646]'} cursor-pointer Btn_primary `}>
+                {
+                  !isLogin ? <Link to={"/login"} state={{ prevUrl: location.pathname }}>
+                    <button disabled={inputValue ? false : true} className={`${inputValue ? '' : 'bg-[#464646]'} cursor-pointer Btn_primary `}>
+                      Send
+                    </button>
+                  </Link> : <button onClick={handleSendComment} disabled={inputValue ? false : true} className={`${inputValue ? '' : 'bg-[#464646]'} cursor-pointer Btn_primary `}>
                     Send
                   </button>
-                </Link>
+                }
               </div>
             </div>
           </TabItem>
           <TabItem className={`${tabIndex === 3 ? 'block' : 'hidden'}`}>
             <p className="text-xl font-medium">Ship & Return</p>
-            <p>{productDetail?.shipAndReturn}</p>
+            <p>{data?.shipAndReturn}</p>
           </TabItem>
         </TabsBody>
       </Tabs>

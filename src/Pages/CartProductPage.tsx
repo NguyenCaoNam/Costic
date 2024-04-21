@@ -3,11 +3,15 @@ import { useAppDispatch, useAppSelector } from '../hooks';
 import { clearProduct, clearProductById, decrementProduct, incrementProduct } from '../redux/rootSlice';
 import IconMinus from '../utils/icon/iconMinus';
 import IconAdd from '../utils/icon/iconAdd';
+import { Link, useLocation } from 'react-router-dom';
 
 const CartProductPage = () => {
-  const dispatch = useAppDispatch();
-  const listProduct = useAppSelector(state => state.root.product)
   const [totalAmount, setTotalAmount] = useState(0)
+  const dispatch = useAppDispatch();
+  const location = useLocation()
+
+  const listProduct = useAppSelector(state => state.root.product)
+  const isLogin = useAppSelector(state => state.root.isLogin)
 
   const handleClearCart = () => {
     dispatch(clearProduct())
@@ -24,6 +28,10 @@ const CartProductPage = () => {
 
   const handleAdd = (id: number | string) => {
     dispatch(incrementProduct(id))
+  }
+
+  const handlePayment = () => {
+    console.log("payment");
   }
 
   useEffect(() => {
@@ -91,7 +99,11 @@ const CartProductPage = () => {
             </div>
           </div>
           <div className='flex flex-col gap-[16px] items-center'>
-            <button className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
+            {
+              !isLogin ? <Link to={"/login"} state={{ prevUrl: location.pathname }}>
+                <button className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
+              </Link> : <button onClick={handlePayment} className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
+            }
             <button className='Btn_secondary w-[271px]'>BACK TO SHOPPING</button>
           </div>
         </div>

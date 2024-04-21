@@ -5,8 +5,10 @@ import IconCardproduct from '../../utils/icon/iconCardproduct'
 import IconHeart from '../../utils/icon/iconHeart'
 import IconPersonal from '../../utils/icon/iconPersonal'
 import IconSearch from '../../utils/icon/iconSearch'
+import { useAppSelector } from '../../hooks'
 
 const Header = () => {
+  const isLogin = useAppSelector(state => state.root.isLogin)
   return (
     <div className='flex flex-row items-center justify-between py-[18px] w-full'>
       <div className='flex flex-row gap-[32px] '>
@@ -24,9 +26,9 @@ const Header = () => {
           <div>Search</div>
         </div>
         <div className='flex flex-row items-center gap-[32px]'>
-          <Link to={"/wishlist"}><IconHeart/></Link>
+          <Link to={"/wishlist"}><IconHeart /></Link>
           <Link to={"/cart"}><IconCardproduct /></Link>
-          <Link to={"/personal"}><IconPersonal /></Link>
+          {isLogin && <Link to={"/personal"}><IconPersonal /></Link>}
         </div>
       </div>
     </div>
