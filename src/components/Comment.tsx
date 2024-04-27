@@ -8,7 +8,7 @@ const Comment = ({ comment }: CommentProps) => {
   return (
     <div className="flex flex-row gap-[16px] items-start w-full">
       <div className="h-[70px] w-[70px] rounded-full object-contain overflow-hidden">
-        <img src={comment?.img} alt=""  className=" h-[70px] w-[70px] rounded-fullobject-cover overflow-hidden"/>
+        <img src={comment?.img} alt=""  className=" h-[70px] w-[70px] rounded-full object-cover overflow-hidden"/>
       </div>
       <div className="flex flex-col items-start gap-[8px]">
         <div className="flex flex-row w-full justify-between">
