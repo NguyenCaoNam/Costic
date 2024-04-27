@@ -3,8 +3,10 @@ export const ListBlog = [
     id: 1,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "GlowGuides: Your Expert Companion for Cosmetic Trends, Tips, and Must-Have Products",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "GlowGuides: Your Expert Companion for Cosmetic Trends, Tips, and Must-Have Products",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -14,45 +16,51 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
@@ -60,8 +68,10 @@ export const ListBlog = [
     id: 2,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "ChicCosmo: Elevate Your Beauty Game with Insider Tips and Trendy Cosmetic Finds",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "ChicCosmo: Elevate Your Beauty Game with Insider Tips and Trendy Cosmetic Finds",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -71,45 +81,51 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
@@ -117,8 +133,10 @@ export const ListBlog = [
     id: 3,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "LuxeLooks: Unveiling Glamorous Makeup Trends and Skincare Secrets in 20 Words or Less",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "LuxeLooks: Unveiling Glamorous Makeup Trends and Skincare Secrets in 20 Words or Less",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -128,45 +146,51 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
@@ -174,8 +198,10 @@ export const ListBlog = [
     id: 4,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "RadiantRevive: Revitalize Your Look with Top Cosmetic Picks and Skincare Hacks in a Flash",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "RadiantRevive: Revitalize Your Look with Top Cosmetic Picks and Skincare Hacks in a Flash",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -185,45 +211,51 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
@@ -231,8 +263,10 @@ export const ListBlog = [
     id: 5,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "BeautyBurst: Exploring Latest Cosmetic Craze in Quick, Bite-Sized Updates for Busy Beauties",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "BeautyBurst: Exploring Latest Cosmetic Craze in Quick, Bite-Sized Updates for Busy Beauties",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -242,45 +276,51 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
@@ -288,8 +328,10 @@ export const ListBlog = [
     id: 6,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "GlamGuru: Your Shortcut to Makeup Mastery and Cosmetic Reviews in 20 Words or Less",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "GlamGuru: Your Shortcut to Makeup Mastery and Cosmetic Reviews in 20 Words or Less",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -299,45 +341,51 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
@@ -345,8 +393,10 @@ export const ListBlog = [
     id: 7,
     date: "12 Nov 2024",
     category: "Online Course",
-    title: "FlawlessFusion: Where Science Meets Style for Effortless Beauty - Essential Tips and Trends ",
-    description: "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
+    title:
+      "FlawlessFusion: Where Science Meets Style for Effortless Beauty - Essential Tips and Trends ",
+    description:
+      "Join us on a fascinating journey as we delve into the world of skincare with Costic. Discover the beauty secrets that can transform your skin and enhance your confidence.",
     imageBlog:
       "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/1020812/dSpjCS13HK-1020812_1.jpg",
     content: [
@@ -356,46 +406,52 @@ export const ListBlog = [
     comment: [
       {
         id: 1,
-        username: "HaiNam",
+        username: "Le Cuong",
         date: "12/03/2024",
-        content: "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "Absolutely in love with this product! The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.The texture is so luxurious and it leaves my skin feeling incredibly soft and hydrated. Definitely a must-have in my skincare routine.",
+        img: "https://www.christophmannhardt.com/wp-content/uploads/2017/01/Christoph-Mannhardt-Portrait-Schauspieler-Raul-Richter-01.jpg",
       },
       {
         id: 2,
-        username: "HaiNam",
+        username: "Quang Hung",
         date: "12/03/2024",
-        content: "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've been using this for a few weeks now and I can already see a noticeable difference in my skin. It's brighter, smoother, and more even-toned. Highly recommend!",
+        img: "https://d2jkr899rqgh58.cloudfront.net/images/5a2ac25c-63ed-4f36-910e-ed5538e1e242.jpg",
       },
       {
         id: 3,
-        username: "HaiNam",
+        username: "Hoang Hai",
         date: "12/03/2024",
-        content: "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "This serum is a game-changer! My fine lines have diminished significantly and my skin looks so much plumper and youthful. Can't imagine my skincare routine without it now.",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT23xSW4sDlxU8PWw8bkxEgUZEa5qgiR7pUTTz_8p3HLw&s",
       },
       {
         id: 4,
-        username: "HaiNam",
+        username: "Van Nga",
         date: "12/03/2024",
-        content: "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "The scent of this product is divine! It's like a spa treatment every time I apply it. Plus, it absorbs quickly and doesn't leave any greasy residue behind.",
+        img: "https://www.shutterstock.com/shutterstock/photos/1865153395/display_1500/stock-photo-portrait-of-young-smiling-woman-looking-at-camera-with-crossed-arms-happy-girl-standing-in-1865153395.jpg",
       },
       {
         id: 5,
-        username: "HaiNam",
+        username: "Hoang Huong",
         date: "12/03/2024",
-        content: "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I've struggled with acne for years, but since incorporating this product into my routine, my breakouts have significantly reduced. My skin feels balanced and looks clearer than ever!",
+        img: "https://images.squarespace-cdn.com/content/v1/5cf96094f8e7670001836e82/1590888538533-PVV2M8CXZUJ6UBGFXZ4S/LARAJADE_SELFPORTRAIT.jpg",
       },
       {
         id: 6,
-        username: "HaiNam",
+        username: "Tran Hoa",
         date: "12/03/2024",
-        content: "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
-        img: "https://nadiazheng.com/wp-content/uploads/2020/06/Montreal-actress-headshot-studio-portrait-black-turtleneck-black-hair-by-nadia-zheng-800x1000.jpg",
+        content:
+          "I was skeptical at first, but after using this mask just once, I'm hooked! My pores are visibly smaller and my complexion looks so much smoother. It's like magic in a jar!",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCfq6Wd07r9IdFkXa_YrT-J0d0keN_flgx_UUWaBvrw&s",
       },
     ],
   },
-]
+];

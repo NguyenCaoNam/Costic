@@ -12,9 +12,9 @@ const CardProductLItem = ({ itemCard }: CardProductLItemProps) => {
     <div key={itemCard?.id} className={styles.Wrap}>
       <Link
         to={`product/${itemCard?.id}`}
-        className="w-[424px] h-[500px] overflow-hidden"
+        className="w-[424px] h-[500px] overflow-hidden flex items-center jus"
       >
-        <img src={itemCard?.productImg[0]} alt="" className='w-[424px] h-[500px] overflow-hidden object-contain' />
+        <img src={itemCard?.productImg[0]} alt="" className='w-[296px] h-[350px] overflow-hidden object-contain' />
       </Link>
       <div className={styles.InforProduct}>
         <Link

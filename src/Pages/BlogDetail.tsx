@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Comment from "../components/Comment";
-import FormSignup from "../components/Form/FormSignup";
 import { ListBlog } from "../utils/data/ListBlog";
 import IconFacebook from "../utils/icon/IconFacebook";
 import IconInsta from "../utils/icon/IconInsta";
@@ -40,7 +39,7 @@ const BlogDetail = () => {
             <div className="text-[20px] text-left w-full leading-[28px]">
               {blogDetail?.content[0]}
             </div>
-            <img src={blogDetail?.imageBlog} alt="" />
+            <img src={blogDetail?.imageBlog} alt="" className="h-[552px] w-full object-contain overflow-hidden"/>
             <div className="text-[20px] text-left w-full leading-[28px]">
               {blogDetail?.content[1]}
             </div>
@@ -77,7 +76,6 @@ const BlogDetail = () => {
             ))}
         </div>
       </div>
-      <FormSignup />
     </div>
 
     // cái comment để chỗ nào
