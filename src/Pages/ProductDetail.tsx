@@ -77,7 +77,7 @@ const ProductDetail = () => {
   const handleLike = () => {
     setIsLike(!isLike);
     if (!isLike) {
-      dispatch(setFavourite({ data, isLike: true }))
+      dispatch(setFavourite({ data: { ...data, quanlity: 1 }, isLike: true }))
     } else {
       dispatch(setFavourite({ data, isLike: false }))
     }

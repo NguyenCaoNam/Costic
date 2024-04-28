@@ -40,7 +40,6 @@ const CartProductPage = () => {
     }, 0);
     setTotalAmount(total)
   }, [listProduct])
-  console.log("🚀 ~ CartProductPage ~ listProduct:", listProduct)
 
   return (
     <div className='flex flex-col gap-[80px] items-center'>
@@ -84,7 +83,7 @@ const CartProductPage = () => {
           </div>
           {
             listProduct?.length > 0
-              ? <div className='Btn_secondary w-fit' onClick={handleClearCart}>Clear Cart</div>
+              ? <div className='Btn_secondary w-fit cursor-pointer' onClick={handleClearCart}>Clear Cart</div>
               : <p className='text-center'>No data Found</p>
           }
         </div>
