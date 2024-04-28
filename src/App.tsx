@@ -40,11 +40,8 @@ function App() {
             <Route path="cart" element={<CartProductPage />} />
             <Route path="wishlist" element={<WishlistPage />} />
             <Route path="dealoftheweek" element={<DealOfTheWeek />} />
-            <Route element={<DealOfTheWeek />}>
-              <Route path="dealoftheweek/product/:id" element={<ProductDetail />} />
-            </Route>
-            <Route path="*" element={<NoPage />} />
           </Route>
+          <Route path="*" element={<NoPage />} />
           <Route path="login" element={<LoginForm />} />
         </Routes>
       </BrowserRouter>

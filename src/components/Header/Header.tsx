@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 import IconCostic from '../../utils/icon/IconCostic'
 import IconCardproduct from '../../utils/icon/iconCardproduct'
 import IconHeart from '../../utils/icon/iconHeart'
@@ -39,9 +39,19 @@ const dataHeader = [
 const Header = () => {
   const [active, setActive] = useState(1)
   const isLogin = useAppSelector(state => state.root.isLogin)
+  const location = useLocation()
   const handleActive = (id: number) => {
     setActive(id)
   }
+
+  useEffect(() => {
+    if (location.pathname.includes('/product')) setActive(4);
+    if (location.pathname.includes('/wishlist')) setActive(0);
+    if (location.pathname.includes('/cart')) setActive(0);
+    if (location.pathname.includes('/shop')) setActive(4);
+    if (location.pathname.includes('/dealoftheweek')) setActive(0);
+  }, [location])
+
   return (
     <div className='flex flex-row items-center justify-between py-[18px] w-full'>
       <div className='flex flex-row gap-[32px] '>

@@ -4,7 +4,6 @@ import { addProduct, clearFavourite, clearFavouriteById } from "../redux/rootSli
 
 const WishlistPage = () => {
   const favouriteList = useAppSelector(state => state.root.listFavourite)
-  console.log("🚀 ~ WishlistPage ~ favouriteList:", favouriteList)
   const dispatch = useAppDispatch()
   const handleClearAll = () => {
     dispatch(clearFavourite())
@@ -44,7 +43,9 @@ const WishlistPage = () => {
           ))}
         </div>
         {
-          favouriteList?.length > 0 ? <div className='Btn_secondary w-fit' onClick={handleClearAll}>Clear Cart</div> : <p className="text-center">No data found</p>
+          favouriteList?.length > 0
+            ? <div className='Btn_secondary w-fit cursor-pointer' onClick={handleClearAll}>Clear Cart</div>
+            : <p className="text-center">No data found</p>
         }
       </div>
     </div>
