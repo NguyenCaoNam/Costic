@@ -5,7 +5,7 @@ import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
 import IconFreeship from "../utils/icon/FeartureSupport/iconFreeship";
 import IconReturn from "../utils/icon/iconReturn";
 import { useAppDispatch, useAppSelector } from "../hooks";
-import { addProduct, setComment, setFavourite } from "../redux/rootSlice";
+import { addProduct, setComment, setCridential, setFavourite, setListProduct } from "../redux/rootSlice";
 import { useEffect, useState } from "react";
 import IconHeart from "../utils/icon/iconHeart";
 import Tabs from "../components/Tabs/Tabs";
@@ -13,6 +13,8 @@ import TabsHeader from "../components/Tabs/TabHeader";
 import TabsBody from "../components/Tabs/TabBody";
 import TabItem from "../components/Tabs/TabItem";
 import Rating from "../components/Rating/Rating";
+import { ListCardProduct } from "../utils/data/ListCardProduct";
+import IconShare from "../utils/icon/iconShare";
 
 const listHeader = [
   {
@@ -84,6 +86,13 @@ const ProductDetail = () => {
     dispatch(setComment({ id: data?.id, data: comment }));
     setInputValue('');
   }
+  // useEffect(() => {
+  //   dispatch(setListProduct(ListCardProduct))
+  //   dispatch(setCridential({
+  //     username: "nguyencaonam",
+  //     password: "nguyencaonam"
+  //   }))
+  // }, [])
 
   useEffect(() => {
     if (favouriteList) {
@@ -170,8 +179,8 @@ const ProductDetail = () => {
                 <div onClick={handleLike} className={`h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px] ${isLike ? "bg-black" : "bg-white"}`}>
                   {isLike ? <IconHeart height={18} width={19.62} color='#FFFFFF' /> : <IconHeart height={18} width={19.62} color='#000000' />}
                 </div>
-                <div className="Share">
-                  <div>Share</div>
+                <div className="h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px]">
+                  <IconShare />
                 </div>
               </div>
             </div>

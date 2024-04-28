@@ -106,6 +106,9 @@ const rootSlice = createSlice({
         })
         state.dataProduct = result
       }
+    },
+    setCridential: (state, action) => {
+      state.credential = action.payload
     }
   },
   extraReducers: builder => {
@@ -121,6 +124,7 @@ const rootSlice = createSlice({
 
 export default rootSlice.reducer;
 export const {
+  setCridential,
   increment,
   increaseByAmount,
   decreaseByAmount,
