@@ -12,6 +12,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <PersistGate persistor={persistor}>
         <App />
       </PersistGate>
-    </React.StrictMode>,
+    </React.StrictMode>
   </Provider>
 )

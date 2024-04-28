@@ -2,7 +2,8 @@ export const ListBlog = [
   {
     id: 1,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 1,
+    category: "Skin Care Product",
     title:
       "GlowGuides: Your Expert Companion for Cosmetic Trends, Tips, and Must-Have Products",
     description:
@@ -67,7 +68,8 @@ export const ListBlog = [
   {
     id: 2,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 3,
+    category: "Ingredient",
     title:
       "ChicCosmo: Elevate Your Beauty Game with Insider Tips and Trendy Cosmetic Finds",
     description:
@@ -132,7 +134,8 @@ export const ListBlog = [
   {
     id: 3,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 2,
+    category: "Skin Concers",
     title:
       "LuxeLooks: Unveiling Glamorous Makeup Trends and Skincare Secrets in 20 Words or Less",
     description:
@@ -197,7 +200,8 @@ export const ListBlog = [
   {
     id: 4,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 3,
+    category: "Ingredient",
     title:
       "RadiantRevive: Revitalize Your Look with Top Cosmetic Picks and Skincare Hacks in a Flash",
     description:
@@ -262,7 +266,8 @@ export const ListBlog = [
   {
     id: 5,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 1,
+    category: "Skin Care Product",
     title:
       "BeautyBurst: Exploring Latest Cosmetic Craze in Quick, Bite-Sized Updates for Busy Beauties",
     description:
@@ -327,7 +332,8 @@ export const ListBlog = [
   {
     id: 6,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 1,
+    category: "Skin Care Product",
     title:
       "GlamGuru: Your Shortcut to Makeup Mastery and Cosmetic Reviews in 20 Words or Less",
     description:
@@ -392,7 +398,8 @@ export const ListBlog = [
   {
     id: 7,
     date: "12 Nov 2024",
-    category: "Online Course",
+    categoryId: 2,
+    category: "Skin Concers",
     title:
       "FlawlessFusion: Where Science Meets Style for Effortless Beauty - Essential Tips and Trends ",
     description:

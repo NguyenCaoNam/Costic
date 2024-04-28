@@ -2,44 +2,47 @@ import React, { useEffect, useState } from "react";
 import AdsLeft from "../components/Ads/adsLeft";
 import AdsRight from "../components/Ads/adsRight";
 import CardProductLItem from "../components/CarProductL/CardProductL";
-import { ListCardProduct } from "../utils/data/ListCardProduct";
 import CardProductSItem from "../components/CardProductS/CardProductS";
-import Feedback from "../components/Feedback/feedback";
+import Feedback from "../components/Feedback/Feedback";
 import { ListBlog } from "../utils/data/ListBlog";
 import BlogItem from "../components/Blog/BlogItem";
 import { Link } from "react-router-dom";
 import { listCategory } from "../utils/constants";
+import { useAppSelector } from "../hooks";
 
 const HomePage = () => {
   const [bestSellerList, setBestSellerList] = useState<IProduct[]>([]);
   const [listProduct, setListProduct] = useState<IProduct[]>([]);
   const [activeItem, setActiveItem] = useState<number>(0);
+  const listDataProduct = useAppSelector(state => state.root.dataProduct)
 
   const handleActive = (id: number) => {
     setActiveItem(id)
   }
 
   useEffect(() => {
-    if (ListCardProduct) {
-      const resultSort = ListCardProduct.sort((a, b) => b.counter - a.counter)
-      const resultBestSeller = resultSort.slice(0, 4)
+    if (listDataProduct) {
+      const dataTemp = [...listDataProduct]
+      const resultSort = dataTemp?.sort((a, b) => b.counter - a.counter)
+      const resultBestSeller = resultSort?.slice(0, 4)
       setBestSellerList(resultBestSeller)
     }
-  }, [ListCardProduct])
+  }, [listDataProduct])
 
   useEffect(() => {
+    const dataTemp = [...listDataProduct]
     if (activeItem) {
-      const result = ListCardProduct.filter(item => item.categoryId === activeItem)
+      const result = dataTemp?.filter(item => item.categoryId === activeItem)
       const resultProduct = result?.slice(0, 4)
       setListProduct(resultProduct)
     } else {
-      const resultProduct = ListCardProduct?.slice(0, 4)
+      const resultProduct = dataTemp?.slice(0, 4)
       setListProduct(resultProduct)
     }
   }, [activeItem])
 
   return (
-    <div  className="flex flex-col gap-[64px] items-center">
+    <div className="flex flex-col gap-[64px] items-center">
       <AdsRight
         title={"2023 HALF-YEAR RESULT"}
         description={

@@ -3,35 +3,34 @@ import { ListFeedback } from './listFeedback'
 
 type Feedback = {
   name: string,
-  content: string,  
+  content: string,
   img: string
 }
+
 const FeedbackItem = ({ name, content, img }: Feedback) => {
   return (
-    <div className='item-stretch'>
-      <img src={img} alt="" className='h-[80px] w-[80px] rounded-full overflow-hidden object-cover relative top-[40px] right-[-172px] border-solid border-[#6E706E] border-[1px]' />
-      <div className='flex flex-col gap-[8px] px-[16px] pb-[32px] pt-[48px] items-center rounded-[30px] border-solid border-[1px] border-[#6E706E]'>
-        <div className='text-[24px] font-medium text-black w-[392px]'>{name}</div>
-        <div className='text-[18px] text-book text-[#545454] text-left w-[392px]'>{content}</div>
+    <div className='relative px-[16px] pb-[32px] pt-[48px] rounded-[30px] border-solid border border-[#6E706E]' >
+      <div className='h-[80px] w-[80px] rounded-full absolute border-[#6E706E] border border-solid -top-11 right-1/2 translate-x-1/2'>
+        <img src={img} alt="" className='object-cover rounded-full w-full h-full' />
       </div>
+      <div className='text-[24px] font-medium text-black w-[392px] text-center'>{name}</div>
+      <div className='text-[18px] text-[#545454] text-left w-[392px]'>{content}</div>
     </div>
   )
 }
 const Feedback = () => {
-
   return (
-    <div className='flex flex-col gap-[20px] items-start'>
-      <div className='text-[24px] leading-[18px] text-left border-b-[1px] border-solid py-[12px] w-[100%] font-bold border-black'>Feedback</div>
-      <div className='flex flex-row gap-[28px] items-stretch'>
-        {ListFeedback.map((Item) => {
-          return (
-            <FeedbackItem 
-            key={Item.id}
-            name={Item.name}
-            content={Item.content}
-            img={Item.img}/>
-          )
-        })}
+    <div className=''>
+      <div className='text-[24px] leading-[18px] text-left border-b border-solid py-[12px] w-full font-bold border-black'>Feedback</div>
+      <div className='flex flex-row gap-[28px] mt-20'>
+        {ListFeedback.map((item) => (
+          <FeedbackItem
+            key={item?.id}
+            name={item.name}
+            content={item.content}
+            img={item.img}
+          />
+        ))}
       </div>
     </div>
   )

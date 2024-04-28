@@ -40,11 +40,13 @@ export default function LoginForm() {
         reset();
         toastLoginSuccess();
         dispatch(setIsLogin(true));
-        setTimeout(() => {
-          navigation(location.state.prevUrl ? location.state.prevUrl : '/');
-        }, 2500);
+        handleNavigation()
       }, 1500);
     }
+  }
+
+  const handleNavigation = () => {
+    navigation(location?.state?.prevUrl ? location?.state?.prevUrl : '/');
   }
 
   return (
@@ -85,7 +87,7 @@ export default function LoginForm() {
             <button className='Btn_primary w-full'
               type='submit'
             >LOGIN</button>
-            <button className='Btn_secondary w-full' type='button'>Back</button>
+            <button className='Btn_secondary w-full' type='button' onClick={handleNavigation}>Back</button>
             <div className='flex flex-row gap-[4px]'>
               <div className='text-black text-[14px] leading-[18px] font-normal'>Do not have an account?</div>
               <div className='text-black text-[14px] leading-[18px] font-bold'>Sign Up</div>

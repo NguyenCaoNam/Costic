@@ -32,15 +32,15 @@ const rootSlice = createSlice({
       state.number -= action.payload;
     },
     addProduct: (state, action) => {
-      const result = state.product.find(item => item?.id === action.payload.id)
+      const result = state.product?.find(item => item?.id === action.payload.id)
       if (result) {
-        const result = state.product?.map(item => {
-          if (item.id === action.payload.id) {
+        const resultData = state.product?.map(item => {
+          if (item?.id === action.payload.id) {
             item.quanlity = item.quanlity + action.payload.data.quanlity
           }
           return item
         })
-        state.product = result;
+        state.product = resultData;
       } else {
         state.product = [...state.product, action.payload.data];
       }
@@ -73,11 +73,11 @@ const rootSlice = createSlice({
     },
     setFavourite: (state, action) => {
       if (!action.payload.isLike) {
-        const result = state.listFavourite.filter(item => item.id !== action.payload.productDetail.id)
+        const result = state.listFavourite.filter(item => item?.id !== action.payload.data.id)
         state.listFavourite = result
       } else {
-        const result = state.listFavourite.find(item => item.id === action.payload.productDetail.id)
-        state.listFavourite = result ? state.listFavourite : [...state.listFavourite, action.payload.productDetail]
+        const result = state.listFavourite.find(item => item?.id === action.payload.data.id)
+        state.listFavourite = result ? state.listFavourite : [...state.listFavourite, action.payload.data]
       }
     },
     clearFavourite: (state) => {
@@ -139,5 +139,5 @@ export const {
   incrementProduct,
   setIsLogin,
   setListProduct,
-  setComment
+  setComment,
 } = rootSlice.actions
