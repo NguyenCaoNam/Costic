@@ -11,7 +11,7 @@ const BlogLarge = ({itemBlogDetail}: blogItemProps) => {
   return (
     <div className='flex flex-row gap-[32px] items-start'>
       <div className='h-[300px] w-[388px] object-fill overflow-hidden'>
-        <img src={itemBlogDetail.imageBlog} alt="" />
+        <img src={itemBlogDetail.imageBlog} alt="" className='h-[300px] w-[388px] object-cover overflow-hidden' />
       </div>
       <div className='flex flex-col gap-[8px]'>
         <div className='flex flex-row justify-between items-center'>

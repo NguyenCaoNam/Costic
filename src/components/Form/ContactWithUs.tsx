@@ -44,9 +44,8 @@ export default function ContactWithUsForm() {
           </div>
           <div className="flex flex-col gap-[8px] items-start">
             <div className="text-[16px] text-medium leading-[22px]">Message</div>
-            <input {...register("message")}
+            <textarea {...register("message")}
               className="Input h-[224px]"
-              type="text"
               placeholder="Type your message" />
             <p className="text-grey">{errors.message?.message}</p>
           </div>
