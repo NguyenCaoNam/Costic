@@ -8,8 +8,8 @@ const initialState: IRootState = {
   product: [],
   listFavourite: [],
   credential: {
-    username: "nguyencaonam",
-    password: "nguyencaonam"
+    username: "",
+    password: ""
   },
   isLogin: false,
   dataProduct: [],
@@ -107,7 +107,7 @@ const rootSlice = createSlice({
         state.dataProduct = result
       }
     },
-    setCridential: (state, action) => {
+    setCredential: (state, action) => {
       state.credential = action.payload
     }
   },
@@ -124,7 +124,7 @@ const rootSlice = createSlice({
 
 export default rootSlice.reducer;
 export const {
-  setCridential,
+  setCredential,
   increment,
   increaseByAmount,
   decreaseByAmount,

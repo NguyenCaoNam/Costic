@@ -39,3 +39,17 @@ export const toastLoginSuccess = () => {
     theme: "light",
   });
 }
+
+export const toastChangePasswordSuccess = () => {
+  toast.success('Change password successfully!', {
+    position: "top-center",
+    autoClose: 2000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+  });
+}
+

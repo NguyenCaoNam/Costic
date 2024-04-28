@@ -5,7 +5,7 @@ import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
 import IconFreeship from "../utils/icon/FeartureSupport/iconFreeship";
 import IconReturn from "../utils/icon/iconReturn";
 import { useAppDispatch, useAppSelector } from "../hooks";
-import { addProduct, setComment, setCridential, setFavourite, setListProduct } from "../redux/rootSlice";
+import { addProduct, setComment, setCredential, setFavourite, setListProduct } from "../redux/rootSlice";
 import { useEffect, useState } from "react";
 import IconHeart from "../utils/icon/iconHeart";
 import Tabs from "../components/Tabs/Tabs";
@@ -15,6 +15,7 @@ import TabItem from "../components/Tabs/TabItem";
 import Rating from "../components/Rating/Rating";
 import { ListCardProduct } from "../utils/data/ListCardProduct";
 import IconShare from "../utils/icon/iconShare";
+import CardProductSItem from "../components/CardProductS/CardProductS";
 
 const listHeader = [
   {
@@ -53,7 +54,7 @@ const ProductDetail = () => {
   const [tabIndex, setTabIndex] = useState(1);
   const [inputValue, setInputValue] = useState('');
   const [data, setData] = useState<any>();
-  console.log("🚀 ~ ProductDetail ~ data:", data)
+  const [dataRelated, setDataRelated] = useState([]);
   const location = useLocation()
 
   const dispatch = useAppDispatch();
@@ -105,7 +106,7 @@ const ProductDetail = () => {
   }
   // useEffect(() => {
   //   dispatch(setListProduct(ListCardProduct))
-  //   dispatch(setCridential({
+  //   dispatch(setCredential({
   //     username: "nguyencaonam",
   //     password: "nguyencaonam"
   //   }))
@@ -113,9 +114,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     if (favouriteList && data) {
-      console.log("🚀 ~ useEffect ~ favouriteList:", favouriteList)
       const result = favouriteList?.find(item => item?.id === data?.id)
-      console.log("🚀 ~ useEffect ~ data", data?.id)
       result ? setIsLike(true) : setIsLike(false)
     }
   }, [favouriteList, data])
@@ -124,6 +123,9 @@ const ProductDetail = () => {
     if (dataProduct) {
       const productDetail = dataProduct.find((itemCard: any) => itemCard.id === Number(id));
       setData(productDetail)
+      const relatedDataFilter = dataProduct?.filter((item: any) => item?.categoryId === productDetail?.categoryId && item?.id !== productDetail?.id);
+      const result = relatedDataFilter?.slice(0, 4)
+      setDataRelated(result)
     }
   }, [dataProduct])
 
@@ -317,6 +319,18 @@ const ProductDetail = () => {
           </TabItem>
         </TabsBody>
       </Tabs>
+
+      <div className="flex flex-col w-full items-center gap-[40px]">
+        <div className="mt-4 text-[24px] w-full font-bold heading-auto py-[12px] border-solid border-b-[1px] border-black text-left">
+          RELATED PRODUCTS
+        </div>
+        <div className="flex flex-wrap gap-[24px] w-[1328px]">
+          {dataRelated.length > 0 && dataRelated?.map((itemProduct: any) => (
+            <CardProductSItem key={itemProduct?.id} itemCard={itemProduct} />
+          ))}
+        </div>
+        <Link to={"/shop"} className="Btn_secondary text-center">More</Link>
+      </div>
     </div>
   );
 };
