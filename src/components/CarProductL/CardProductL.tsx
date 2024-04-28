@@ -9,20 +9,18 @@ type CardProductLItemProps = {
 
 const CardProductLItem = ({ itemCard }: CardProductLItemProps) => {
   return (
-    <div key={itemCard?.id} className={styles.Wrap}>
-      <Link
-        to={`product/${itemCard?.id}`}
-        className="w-[424px] h-[500px] overflow-hidden flex items-center jus"
-      >
-        <img src={itemCard?.productImg[0]} alt="" className='w-[296px] h-[350px] overflow-hidden object-contain' />
-      </Link>
-      <div className={styles.InforProduct}>
-        <Link
-          to={`product/${itemCard?.id}`}
-          className="text-[16px] font-medium leading-[25px text-left text-[#333] w-[328px]"
-        >
+
+    <Link
+      to={`product/${itemCard?.id}`}
+      className={styles.Wrap}
+    >
+      <div className='m-auto'>
+        <img src={itemCard?.productImg[0]} alt="" className='w-[250px] h-[250px] overflow-hidden object-contain' />
+      </div>
+      <div className={`${styles.InforProduct} `}>
+        <div className="text-[16px] font-medium leading-[25px] text-left text-[#333]">
           {itemCard?.productName}
-        </Link>
+        </div>
         <div className="flex flex-col gap-0 items-end">
           <div className="text-[20px] font-medium text-[#545454] text-left">
             {itemCard?.currentPrice}$
@@ -32,7 +30,7 @@ const CardProductLItem = ({ itemCard }: CardProductLItemProps) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 export default CardProductLItem;

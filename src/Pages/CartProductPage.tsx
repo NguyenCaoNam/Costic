@@ -35,12 +35,13 @@ const CartProductPage = () => {
   }
 
   useEffect(() => {
-    const total = listProduct.reduce((acc, product) => {
+    const total = listProduct?.reduce((acc, product) => {
       return acc + product.currentPrice * product.quanlity;
     }, 0);
     setTotalAmount(total)
   }, [listProduct])
-  console.log(listProduct)
+  console.log("🚀 ~ CartProductPage ~ listProduct:", listProduct)
+
   return (
     <div className='flex flex-col gap-[80px] items-center'>
       <p className='leading-[45px] font-medium text-[32px] text-left w-full'>CART</p>
@@ -60,7 +61,7 @@ const CartProductPage = () => {
                   <div key={item?.id} className='flex flex-row gap-[10px] py-[24px] border-solid border-b-[1px] border-black justify-between w-[948px] items-center'>
                     <div className='flex flex-row items-center gap-[16px] w-[560px]'>
                       <div className='w-[130px] h-[130px] object-contain overflow-hidden'>
-                        <img src={item?.productImg[0]} alt="" />
+                        <img src={item.productImg && item.productImg[0]} alt="" />
                       </div>
                       <div className='text-[20px] font-medium text-left leading-[28px] w-[]'>{item?.productName}</div>
                     </div>
@@ -81,7 +82,11 @@ const CartProductPage = () => {
               })}
             </div>
           </div>
-          <div className='Btn_secondary w-fit' onClick={handleClearCart}>Clear Cart</div>
+          {
+            listProduct?.length > 0
+              ? <div className='Btn_secondary w-fit' onClick={handleClearCart}>Clear Cart</div>
+              : <p className='text-center'>No data Found</p>
+          }
         </div>
         <div className='flex flex-col gap-[24px] items-center pt-[48px]'>
           <div className='flex flex-col gap-[0px] items-center'>
@@ -104,7 +109,7 @@ const CartProductPage = () => {
                 <button className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
               </Link> : <button onClick={handlePayment} className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
             }
-            <button className='Btn_secondary w-[271px]'>BACK TO SHOPPING</button>
+            <Link to={'/shop'} className='Btn_secondary w-[271px] text-center'>BACK TO SHOPPING</Link>
           </div>
         </div>
       </div>

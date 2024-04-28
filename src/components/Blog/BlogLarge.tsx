@@ -22,8 +22,8 @@ const BlogLarge = ({itemBlogDetail}: blogItemProps) => {
           <p  className='text-[14px] font-medium leading-[20px] w-fit text-[#101110]'>{itemBlogDetail.date}</p>
         </div>
         <div className='flex flex-col items-start gap-[16px] w-full'>
-          <Link to={`blog/${itemBlogDetail.id}`} className=' text-[30px] font-medium leading-[40px] text-left w-[534px] text-[#333333]'>{itemBlogDetail.title}</Link>
-          <Link to={`blog/${itemBlogDetail.id}`}  className='text-[18px] leading-[25px] text-left w-[534px] h-fit text-[#101110] '>{itemBlogDetail.description}</Link>
+          <Link to={`${itemBlogDetail.id}`} className=' text-[30px] font-medium leading-[40px] text-left w-[534px] text-[#333333]'>{itemBlogDetail.title}</Link>
+          <Link to={`${itemBlogDetail.id}`}  className='text-[18px] leading-[25px] text-left w-[534px] h-fit text-[#101110] '>{itemBlogDetail.description}</Link>
         </div>
       </div>
     </div>

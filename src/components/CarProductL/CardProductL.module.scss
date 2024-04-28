@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 16px;
     align-items: start;
+    flex: 1;
 }
 
 .ProductImg {
@@ -19,8 +20,6 @@
 
 .InforProduct {
     display: flex;
-    width: 424px;
-    padding: 0px 8px;
     align-items: flex-start;
     gap: 8px;
 }

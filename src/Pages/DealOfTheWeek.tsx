@@ -1,8 +1,10 @@
 import React from "react";
 import CardProductSItem from "../components/CardProductS/CardProductS"
-import { ListCardProduct } from "../utils/data/ListCardProduct"
+import { useAppSelector } from "../hooks";
 
 const DealOfTheWeek = () => {
+  const listDataProduct = useAppSelector(state => state.root.dataProduct)
+
   return (
     <div className="flex flex-col gap-[64px] items-center">
       <div className="flex flex-col gap-[32px]">
@@ -14,7 +16,7 @@ const DealOfTheWeek = () => {
       <div className="flex flex-col w-full items-center gap-[40px]">
         <div className="flex flex-wrap gap-[24px] w-[1328px]">
           {/* chỗ này phải là camel case itemproduct => itemProduct */}
-          {ListCardProduct.map((itemProduct) => (
+          {listDataProduct.map((itemProduct: any) => (
             <CardProductSItem key={itemProduct.id} itemCard={itemProduct} />
           ))}
         </div>

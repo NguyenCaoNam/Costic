@@ -37,13 +37,15 @@ const WishlistPage = () => {
               </div>
               <div className='text-[18px] text-center w-[100px] leading-[74px]'>{item?.oldPrice}$</div>
               <div className="flex flex-row gap-[16px] w-[304px]">
-                <div className='Btn_primary w-fit leading-[18px]' onClick={() => handleAddProduct(item?.id, item)}>ADD TO CART</div>
-                <div className='Btn_secondary w-fit leading-[18px]' onClick={() => handleDeleteProduct(item?.id)}>DELETE</div>
+                <div className='Btn_primary w-fit leading-[18px] cursor-pointer' onClick={() => handleAddProduct(item?.id, item)}>ADD TO CART</div>
+                <div className='Btn_secondary w-fit leading-[18px] cursor-pointer' onClick={() => handleDeleteProduct(item?.id)}>DELETE</div>
               </div>
             </div>
           ))}
         </div>
-        <div className='Btn_secondary w-fit' onClick={handleClearAll}>Clear Cart</div>
+        {
+          favouriteList?.length > 0 ? <div className='Btn_secondary w-fit' onClick={handleClearAll}>Clear Cart</div> : <p className="text-center">No data found</p>
+        }
       </div>
     </div>
 

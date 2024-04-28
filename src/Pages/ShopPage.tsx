@@ -1,21 +1,14 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import CardProductSItem from '../components/CardProductS/CardProductS'
 import IconArrowdown from '../utils/icon/Arrow/iconArrowdown'
 import { listCategory } from "../utils/constants";
-import { ListCardProduct } from "../utils/data/ListCardProduct";
-
-interface ICategory {
-  total: number;
-  id: number;
-  title: string;
-  categoryId: number;
-}
+import { useAppSelector } from "../hooks";
 
 const ShopPage = () => {
   const [category, setCategory] = useState<ICategory[]>([])
-  const [listProduct, setListProduct] = useState<any[]>(ListCardProduct)
+  const [listProduct, setListProduct] = useState<any[]>()
   const [activeItem, setActiveItem] = useState<number>(0);
+  const listDataProduct = useAppSelector(state => state.root.dataProduct)
 
   const handleActive = (id: number) => {
     setActiveItem(id)
@@ -26,9 +19,9 @@ const ShopPage = () => {
       const updatedCategories = listCategory.map(category => {
         let total = 0;
         if (category.categoryId === 0) {
-          total = ListCardProduct.length;
+          total = listDataProduct.length;
         } else {
-          total = ListCardProduct.reduce((acc, product) => {
+          total = listDataProduct.reduce((acc: number, product: any) => {
             if (product.categoryId === category.categoryId) {
               return acc + 1;
             }
@@ -43,10 +36,10 @@ const ShopPage = () => {
 
   useEffect(() => {
     if (activeItem) {
-      const result = ListCardProduct.filter(item => item.categoryId === activeItem)
+      const result = listDataProduct.filter((item: any) => item.categoryId === activeItem)
       setListProduct(result)
     } else {
-      setListProduct(ListCardProduct)
+      setListProduct(listDataProduct)
     }
   }, [activeItem])
 
@@ -60,7 +53,7 @@ const ShopPage = () => {
           </div>
           <div className='flex flex-col gap-[8px] items-start'>
             {category && category.map(item => (
-              <div key={item.id} className={`flex flex-row justify-between Tag w-[314px] ${activeItem === item.categoryId && 'bg-black hover:bg-black'}`}
+              <div key={item.id} className={`cursor-pointer flex flex-row justify-between Tag w-[314px] ${activeItem === item.categoryId && 'bg-black hover:bg-black'}`}
                 onClick={() => handleActive(item.categoryId)}
               >
                 <p className={`text-[16px] text-left leading-[22px] text-black ${activeItem === item.categoryId && 'text-white'}`}>{item.title}</p>

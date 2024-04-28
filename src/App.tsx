@@ -17,12 +17,15 @@ import BlogDetail from "./Pages/BlogDetail";
 import DealOfTheWeek from "./Pages/DealOfTheWeek";
 import { ToastContainer } from "react-toastify";
 import LoginForm from "./components/Form/FormLogin";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
+import MyProfile from "./Pages/MyProfile";
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <ToastContainer className={"mt-10"} />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<DefaultLayout />}>
             <Route path="/" element={<HomePage />} />
@@ -33,7 +36,7 @@ function App() {
             <Route path="product/:id" element={<ProductDetail />} />
             <Route path="blog/:id" element={<BlogDetail />} />
             <Route path="trackingorder" element={<TrackOrderPage />} />
-            <Route path="personal" element={<PersonalPage />} />
+            <Route path="personal" element={<MyProfile />} />
             <Route path="cart" element={<CartProductPage />} />
             <Route path="wishlist" element={<WishlistPage />} />
             <Route path="dealoftheweek" element={<DealOfTheWeek />} />

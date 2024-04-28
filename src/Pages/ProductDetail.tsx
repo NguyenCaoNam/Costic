@@ -31,12 +31,29 @@ const listHeader = [
   }
 ]
 
+const ingredients = [
+  "AQUA/WATER",
+  "GLYCERIN",
+  "ISOHEXADECANE",
+  "DIMETHICONE",
+  "ISOPROPYL ISOSTEARATE",
+  "ALUMINUM STARCH OCTENYLSUCCINATE",
+  "PROPYLENE GLYCOL",
+  "NYLON-12",
+  "OCTYLDODECANOL",
+  "CETYL ALCOHOL",
+  "BEHENYL ALCOHOL",
+  "AMMONIUM",
+  "POLYACRYLOYLDIMETHYL TAURATE"
+]
+
 const ProductDetail = () => {
   const [quanlity, setQuanlity] = useState(1);
   const [isLike, setIsLike] = useState(false);
   const [tabIndex, setTabIndex] = useState(1);
   const [inputValue, setInputValue] = useState('');
   const [data, setData] = useState<any>();
+  console.log("🚀 ~ ProductDetail ~ data:", data)
   const location = useLocation()
 
   const dispatch = useAppDispatch();
@@ -95,11 +112,13 @@ const ProductDetail = () => {
   // }, [])
 
   useEffect(() => {
-    if (favouriteList) {
-      const result = favouriteList.find(item => item?.id === data?.id)
+    if (favouriteList && data) {
+      console.log("🚀 ~ useEffect ~ favouriteList:", favouriteList)
+      const result = favouriteList?.find(item => item?.id === data?.id)
+      console.log("🚀 ~ useEffect ~ data", data?.id)
       result ? setIsLike(true) : setIsLike(false)
     }
-  }, [favouriteList])
+  }, [favouriteList, data])
 
   useEffect(() => {
     if (dataProduct) {
@@ -176,10 +195,10 @@ const ProductDetail = () => {
                 <div className="Btn_secondary cursor-pointer text-center" onClick={handleAddProduct}>Add To Cart</div>
               </div>
               <div className="flex flex-row gap-[8px] items-center">
-                <div onClick={handleLike} className={`h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px] ${isLike ? "bg-black" : "bg-white"}`}>
+                <div onClick={handleLike} className={`h-[40px] w-[40px] cursor-pointer flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px] ${isLike ? "bg-black" : "bg-white"}`}>
                   {isLike ? <IconHeart height={18} width={19.62} color='#FFFFFF' /> : <IconHeart height={18} width={19.62} color='#000000' />}
                 </div>
-                <div className="h-[40px] w-[40px] flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px]">
+                <div className="h-[40px] w-[40px] cursor-pointer flex flex-col items-center justify-center rounded-full border-solid border-[#6E706E] border-[1px]">
                   <IconShare />
                 </div>
               </div>
@@ -241,14 +260,14 @@ const ProductDetail = () => {
               <p className="text-xl font-medium">Description</p>
               <p>{data?.description}</p>
             </div>
-            {/* <div className="mt-2">
+            <div className="mt-2">
               <p className="text-xl font-medium">Ingredients</p>
               <div>
-                {dataDetail[0].data.description.ingredients.map((item, index) => (
+                {ingredients?.map((item, index) => (
                   <p key={index}>{item}</p>
                 ))}
               </div>
-            </div> */}
+            </div>
           </TabItem>
           <TabItem className={`${tabIndex === 2 ? 'block' : 'hidden'}`}>
             <div className="pb-3 border-b border-[#545454]">
