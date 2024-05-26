@@ -19,6 +19,7 @@ import { ToastContainer } from "react-toastify";
 import LoginForm from "./components/Form/FormLogin";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import MyProfile from "./Pages/MyProfile";
+import Checkout from "./Pages/Checkout";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="cart" element={<CartProductPage />} />
             <Route path="wishlist" element={<WishlistPage />} />
             <Route path="dealoftheweek" element={<DealOfTheWeek />} />
+            <Route path="/checkout" element={<Checkout />} />
           </Route>
           <Route path="*" element={<NoPage />} />
           <Route path="login" element={<LoginForm />} />

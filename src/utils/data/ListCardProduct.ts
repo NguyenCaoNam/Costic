@@ -73,38 +73,49 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
 
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Alpha-Arbutin"
       },
     ],
@@ -189,34 +200,44 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
     ],
@@ -301,38 +322,49 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
 
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Alpha-Arbutin"
       },
     ],
@@ -417,31 +449,40 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -526,28 +567,36 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
     ],
@@ -632,37 +681,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -747,37 +807,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -862,41 +933,53 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-    
-      {id:5,
+
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -981,31 +1064,40 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -1090,40 +1182,52 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -1208,37 +1312,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -1323,40 +1438,52 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
     ],
@@ -1441,37 +1568,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
 
@@ -1557,34 +1695,44 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -1669,37 +1817,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -1784,37 +1943,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -1899,40 +2069,52 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -2017,40 +2199,52 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -2135,37 +2329,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
     ],
@@ -2250,40 +2455,52 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:9,
+      {
+        id: 9,
         title: "Titanium Dioxide (TiO2)"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
     ],
@@ -2368,37 +2585,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:10,
+      {
+        id: 10,
         title: "Glycerin"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -2483,37 +2711,48 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -2598,40 +2837,52 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:6,
+      {
+        id: 6,
         title: "Salicylic Acid"
       },
-      {id:11,
+      {
+        id: 11,
         title: "Aloe Vera"
       },
-      {id:12,
+      {
+        id: 12,
         title: "Shea Butter"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],
@@ -2716,34 +2967,44 @@ export const ListCardProduct = [
       },
     ],
     ingredient: [
-      {id:1,
+      {
+        id: 1,
         title: "Hyaluronic Acid (HA)"
       },
-      {id:2,
+      {
+        id: 2,
         title: "Vitamin C (Ascorbic Acid)"
       },
-      {id:5,
+      {
+        id: 5,
         title: "Glycolic Acid"
       },
-      {id:3,
+      {
+        id: 3,
         title: "Niacinamide (Vitamin B3)"
       },
-      {id:7,
+      {
+        id: 7,
         title: "Ceramides"
       },
-      {id:8,
+      {
+        id: 8,
         title: "Peptides"
       },
-      {id:4,
+      {
+        id: 4,
         title: "Retinol (Vitamin A)"
       },
-      {id:13,
+      {
+        id: 13,
         title: "Green Tea Extract"
       },
-      {id:14,
+      {
+        id: 14,
         title: "Jojoba Oil"
       },
-      {id:15,
+      {
+        id: 15,
         title: "Alpha-Arbutin"
       },
     ],

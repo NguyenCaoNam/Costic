@@ -53,3 +53,16 @@ export const toastChangePasswordSuccess = () => {
   });
 }
 
+export const toastCheckoutSuccess = () => {
+  toast.success('Thank you for ordering!', {
+    position: "top-center",
+    autoClose: 2000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+  });
+}
+
