@@ -30,10 +30,6 @@ const CartProductPage = () => {
     dispatch(incrementProduct(id))
   }
 
-  const handlePayment = () => {
-    console.log("payment");
-  }
-
   useEffect(() => {
     const total = listProduct?.reduce((acc, product) => {
       return acc + product.currentPrice * product.quanlity;
@@ -106,7 +102,7 @@ const CartProductPage = () => {
             {
               !isLogin ? <Link to={"/login"} state={{ prevUrl: location.pathname }}>
                 <button className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
-              </Link> : <button onClick={handlePayment} className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button>
+              </Link> : <Link to={"/checkout"} state={{ prevUrl: location.pathname }}> <button className='Btn_primary w-[271px]'>TO PURCHASE PROCEDURE</button></Link> 
             }
             <Link to={'/shop'} className='Btn_secondary w-[271px] text-center'>BACK TO SHOPPING</Link>
           </div>

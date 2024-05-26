@@ -8,7 +8,7 @@ type CardProductSItemProps = {
 
 const CardProductSItem = ({ itemCard }: CardProductSItemProps) => {
   return (
-    <Link to={`/product/${itemCard?.id}`} key={itemCard?.id} className={styles.ProductCardSmall}>
+    <Link to={`/product/${itemCard?.id}`} key={itemCard?.id} className={`${styles.ProductCardSmall} zoom-out`}>
       <div className='w-[300px] h-[300px] overflow-hidden justify-center items-center flex'>
         <img className={styles.ProductImage} src={itemCard?.productImg[0]} alt="" />
       </div>

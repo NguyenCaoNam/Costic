@@ -12,7 +12,7 @@ const CardProductLItem = ({ itemCard }: CardProductLItemProps) => {
 
     <Link
       to={`product/${itemCard?.id}`}
-      className={styles.Wrap}
+      className={`${styles.Wrap} zoom-out`}
     >
       <div className='m-auto'>
         <img src={itemCard?.productImg[0]} alt="" className='w-[250px] h-[250px] overflow-hidden object-contain' />

@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, useLocation, useParams } from "react-router-dom";
+import React, { useLayoutEffect } from "react";
+import { Link, useLocation, useNavigate, useParams } from "react-router-dom";
 import HandleQuantityProduct from "../components/Event/HandleQuantityProduct";
 import IconEstimateship from "../utils/icon/FeartureSupport/iconEstimateship";
 import IconFreeship from "../utils/icon/FeartureSupport/iconFreeship";
@@ -16,6 +16,9 @@ import Rating from "../components/Rating/Rating";
 import { ListCardProduct } from "../utils/data/ListCardProduct";
 import IconShare from "../utils/icon/iconShare";
 import CardProductSItem from "../components/CardProductS/CardProductS";
+import { ListIngredients as listIngredients } from '../utils/data/ListIngredients'
+import { Box, Modal } from "@mui/material";
+import IconClose from "../utils/icon/IconClose/IconClose";
 
 const listHeader = [
   {
@@ -32,21 +35,17 @@ const listHeader = [
   }
 ]
 
-const ingredients = [
-  "AQUA/WATER",
-  "GLYCERIN",
-  "ISOHEXADECANE",
-  "DIMETHICONE",
-  "ISOPROPYL ISOSTEARATE",
-  "ALUMINUM STARCH OCTENYLSUCCINATE",
-  "PROPYLENE GLYCOL",
-  "NYLON-12",
-  "OCTYLDODECANOL",
-  "CETYL ALCOHOL",
-  "BEHENYL ALCOHOL",
-  "AMMONIUM",
-  "POLYACRYLOYLDIMETHYL TAURATE"
-]
+const style = {
+  position: 'absolute' as 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 930,
+  bgcolor: 'white',
+  boxShadow: 24,
+  p: 2,
+  borderRadius: 3
+};
 
 const ProductDetail = () => {
   const [quanlity, setQuanlity] = useState(1);
@@ -55,7 +54,14 @@ const ProductDetail = () => {
   const [inputValue, setInputValue] = useState('');
   const [data, setData] = useState<any>();
   const [dataRelated, setDataRelated] = useState([]);
+  const [imageDisplay, setImageDisplay] = useState('');
+  const [isImageDisplay, setIsImageDisplay] = useState(0);
   const location = useLocation()
+  const navigation = useNavigate()
+  const [open, setOpen] = useState(false);
+  const [dataIngredient, setDataIngredient] = useState<any>();
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
 
   const dispatch = useAppDispatch();
   const params = useParams();
@@ -104,13 +110,13 @@ const ProductDetail = () => {
     dispatch(setComment({ id: data?.id, data: comment }));
     setInputValue('');
   }
-  // useEffect(() => {
-  //   dispatch(setListProduct(ListCardProduct))
-  //   dispatch(setCredential({
-  //     username: "nguyencaonam",
-  //     password: "nguyencaonam"
-  //   }))
-  // }, [])
+  useEffect(() => {
+    // dispatch(setListProduct(ListCardProduct))
+    // dispatch(setCredential({
+    //   username: "nguyencaonam",
+    //   password: "nguyencaonam"
+    // }))
+  }, [])
 
   useEffect(() => {
     if (favouriteList && data) {
@@ -119,7 +125,7 @@ const ProductDetail = () => {
     }
   }, [favouriteList, data])
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (dataProduct) {
       const productDetail = dataProduct.find((itemCard: any) => itemCard.id === Number(id));
       setData(productDetail)
@@ -127,44 +133,47 @@ const ProductDetail = () => {
       const result = relatedDataFilter?.slice(0, 4)
       setDataRelated(result)
     }
-  }, [dataProduct])
+  }, [dataProduct, id])
+
+  useEffect(() => {
+    if (data) {
+      setImageDisplay(data?.productImg[0])
+    }
+  }, [data])
+
+  const handleDisplayImage = (item: string, index: number) => {
+    setImageDisplay(item)
+    setIsImageDisplay(index)
+  }
+
+  const handleBuyNow = () => {
+    navigation('/cart')
+    handleAddProduct()
+  }
+
+  const handleDetailIngredient = (id: string | number) => {
+    const list: any = listIngredients.find((item: any) => item.id === id)
+    setDataIngredient(list ?? {})
+    handleOpen()
+  }
 
   return (
     <div>
       <div className="flex flex-row gap-[64px] items-start">
         <div className="flex flex-col gap-[16px] items-start">
           <div className="w-[632px] h-[632px]">
-            <img src={data?.productImg[0]} alt="" className="w-[632px] h-[632px] object-contain overflow-hidden" />
+            <img src={imageDisplay ?? ''} alt="" className="w-[632px] h-[632px] object-contain overflow-hidden" />
           </div>
           <div className="flex flex-row gap-[16px] items-center">
-            <div className="h-[146px] w-[146px] object-contain">
-              <img
-                src={data?.productImg[1]}
-                alt=""
-                className="h-full w-auto object-contain overflow-hidden"
-              />
-            </div>
-            <div className="h-[146px] w-[146px] object-contain">
-              <img
-                src={data?.productImg[2]}
-                alt=""
-                className="h-full w-auto object-contain overflow-hidden"
-              />
-            </div>
-            <div className="h-[146px] w-[146px] object-contain">
-              <img
-                src={data?.productImg[3]}
-                alt=""
-                className="h-full w-auto object-contain overflow-hidden"
-              />
-            </div>
-            <div className="h-[146px] w-[146px] object-contain">
-              <img
-                src={data?.productImg[4]}
-                alt=""
-                className="h-full w-auto object-contain overflow-hidden"
-              />
-            </div>
+            {data?.productImg && data?.productImg.slice(0, 4).map((item: any, index: number) => (
+              <div key={index} className={`h-[146px] flex items-center justify-center cursor-pointer w-[146px] object-contain ${isImageDisplay === index && 'border-2 border-black'}`} onClick={() => handleDisplayImage(item, index)}>
+                <img
+                  src={item}
+                  alt=""
+                  className="h-full w-auto object-contain overflow-hidden"
+                />
+              </div>
+            ))}
           </div>
         </div>
         <div className="flex flex-col gap-[32px] items-start">
@@ -193,7 +202,7 @@ const ProductDetail = () => {
                 <HandleQuantityProduct quanlity={quanlity} setQuanlity={setQuanlity} />
               </div>
               <div className="flex flex-row items-center gap-[32px]">
-                <div className="Btn_primary cursor-pointer text-center">Buy Now</div>
+                <div className="Btn_primary cursor-pointer text-center" onClick={handleBuyNow}>Buy Now</div>
                 <div className="Btn_secondary cursor-pointer text-center" onClick={handleAddProduct}>Add To Cart</div>
               </div>
               <div className="flex flex-row gap-[8px] items-center">
@@ -263,10 +272,10 @@ const ProductDetail = () => {
               <p>{data?.description}</p>
             </div>
             <div className="mt-2">
-              <p className="text-xl font-medium">Ingredients</p>
+              <p className="text-xl font-medium mb-4">Ingredients</p>
               <div>
-                {ingredients?.map((item, index) => (
-                  <p key={index}>{item}</p>
+                {data?.ingredient?.map((item: any) => (
+                  <p key={item?.id} className="cursor-pointer w-fit text-lg text-[#6E706E] mb-2" onClick={() => handleDetailIngredient(item?.id)}>{item?.title}</p>
                 ))}
               </div>
             </div>
@@ -331,8 +340,29 @@ const ProductDetail = () => {
         </div>
         <Link to={"/shop"} className="Btn_secondary text-center">More</Link>
       </div>
+      <Modal
+        open={open}
+        disableAutoFocus
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box sx={style}>
+          <div className="flex justify-between items-center mb-8">
+            <div></div>
+            <p className="text-center text-lg font-bold">{dataIngredient?.Ingredient}</p>
+            <div onClick={handleClose} className="cursor-pointer"><IconClose /></div>
+          </div>
+          <p className="text-lg font-bold mb-2">Structure</p>
+          <p className="text-lg text-[#6E706E] mb-6">{dataIngredient?.Structure}</p>
+          <p className="text-lg font-bold mb-2">Main Function</p>
+          <p className="text-lg text-[#6E706E] mb-6">{dataIngredient?.MainFunction}</p>
+
+        </Box>
+      </Modal>
     </div>
   );
 };
+
+
 
 export default ProductDetail;
